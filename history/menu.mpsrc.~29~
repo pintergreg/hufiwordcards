@@ -1,0 +1,29 @@
+program menu;
+
+const ballSize = 15;
+
+      ballSpeed = 25;
+
+var selected: integer;
+    finish  : boolean;
+
+begin
+
+	repeat
+		{ erase the screen }
+		setColor(0, 0, 128);
+		fillRect(0, 0, getWidth, getHeight);
+    setColor(255, 255, 0);
+    DrawText ('Hello, World!', 0, 0);
+
+  Repaint;
+
+		setColor(255, 0, 0);
+
+
+
+		repaint;
+		delay(ballSpeed);
+		{ repeat that until any key is pressed  }
+	until getKeyClicked <> 0;
+end.

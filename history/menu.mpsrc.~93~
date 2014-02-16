@@ -1,0 +1,71 @@
+program menu;
+
+type
+ item = record
+  text : string;
+  index: integer;
+  code : integer;   //codes: 0 inactive, 1 active, 2 right (answer)
+ end;
+
+
+ screen = record
+  title  : string;
+  /*option1: item;
+  option2: item;
+  option3: item;
+  option4: item;*/
+ end;
+
+procedure drawScreen(s:screen);
+var top:integer;
+begin
+setColor(255, 255, 0);
+top:=20;
+drawText(s.title, (getWidth -  getStringWidth(s.title))/2, top);
+top:=top+4+getStringHeight(s.title);
+/*drawText(s.option1.text, (getWidth -  getStringWidth(s.option1.text))/2, top);
+top:=top+4+getStringHeight(s.option1.text);
+drawText(s.option2.text, (getWidth -  getStringWidth(s.option2.text))/2, top);
+top:=top+4+getStringHeight(s.option2.text);
+drawText(s.option3.text, (getWidth -  getStringWidth(s.option3.text))/2, top);
+top:=top+4+getStringHeight(s.option3.text);
+drawText(s.option4.text, (getWidth -  getStringWidth(s.option4.text))/2, top);*/
+repaint;
+end;
+
+var selected : integer;
+    finish   : boolean;
+   startmenu: screen;
+   i:integer;
+   w:string;
+begin
+
+ startmenu.title:='Men'+chr(147);
+for i:=181 to 201 do
+begin
+ w:=w+chr(i);
+end;
+ startmenu.title:=w;
+ /*
+ startmenu.option1.text:='Start';
+ startmenu.option1.index:=1;
+ startmenu.option1.code:=1;
+ startmenu.option2.text:='About';
+ startmenu.option2.index:=2;
+ startmenu.option2.code:=1;
+ startmenu.option3.text:='Exit';
+ startmenu.option3.index:=3;
+ startmenu.option3.code:=1;*/
+
+ //repeat
+  setColor(0, 0, 128);
+  fillRect(0, 0, getWidth, getHeight);
+  repaint;
+
+  drawScreen(startmenu);
+
+  repaint;
+ { repeat that until any key is pressed }
+ //until getKeyClicked <> 0;
+ delay(3000);
+end.

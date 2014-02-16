@@ -1,0 +1,17 @@
+program menu;
+
+
+
+var finish:boolean;
+begin
+setColor(255, 0, 0);
+
+		fillRect(0, 0, getWidth, getHeight);
+ finish:=false;
+ repeat
+  if (GetKeyPressed=KE_KEY1) then
+  begin
+   finish:=true;
+  end;
+ until getKeyClicked <> 0;
+end.

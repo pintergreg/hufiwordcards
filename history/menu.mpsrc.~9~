@@ -1,0 +1,15 @@
+program menu;
+
+
+
+//var exit:boolean;
+begin
+
+ //exit:=false;
+ repeat
+  if (GetKeyPressed=KE_KEY1) then
+  begin
+   //exit=true;
+  end;
+ until true;
+end.

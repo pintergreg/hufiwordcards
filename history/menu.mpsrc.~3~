@@ -1,0 +1,11 @@
+program menu;
+var exit:boolean;
+begin
+ exit:=false;
+ repeat
+  if () then
+  begin
+   exit=true;
+  end;
+ until exit=true;
+end.

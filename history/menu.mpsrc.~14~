@@ -1,0 +1,15 @@
+program menu;
+
+
+
+var finish:boolean;
+begin
+
+ finish:=false;
+ repeat
+  if (GetKeyPressed=KE_KEY1) then
+  begin
+   finish:=true;
+  end;
+ until finish;
+end.

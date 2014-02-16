@@ -1,0 +1,333 @@
+program menu;
+type
+ txt=array[1..5] of string;
+ cod=array[1..5] of integer;
+
+const WORDS=252;
+
+var i, n, score, position, lastposition, selected, corq: integer;
+    finish, fibase: boolean;
+    scrtxt: array [1..5] of string;
+    scrcod: array [1..5] of integer;
+    asked:array[1..40] of integer;
+    fi:array[1..words] of string;
+    hu:array[1..words] of string;
+
+procedure drwscr(g:txt;h:cod);
+var top,i,x:integer;
+begin
+ top:=20;
+ setColor(0, 0, 128);
+ fillRect(0, 0, getWidth, getHeight);
+ x:=(getWidth - getStringWidth(g[1]))/2;
+ setColor(255, 255, 0);
+ drawText(g[1], x, top);
+ top:=top+24+getStringHeight(g[1]);
+ for i:=2 to 5 do
+ begin
+  x:=(getWidth - getStringWidth(g[i]))/2;
+  if (h[i]>0) then
+  begin
+   if (selected=i) then
+   begin
+    setColor(255, 255, 255);
+    fillRect(x-6, top-1, getStringWidth(g[i])+12, getStringHeight(g[i])+2);
+    setColor(0, 0, 128);
+    drawText(g[i], x, top);
+   end
+   else
+   begin
+    setColor(255, 255, 0);
+    drawText(g[i], x, top);
+   end;
+   /*if (h[i]=1) then
+    top:=top+24+getStringHeight(g[i]);
+   else*/
+    top:=top+4+getStringHeight(g[i]);
+  end;
+ end;
+ repaint;
+end;
+
+function encodetext(w:string):string;
+/*
+1 - ö - 246,-10 ,65526, 25088
+2 - ü - 252,-4  ,65532, 49664
+3 - ó - 243,-13 ,65523,
+4 - ő - 244,-11 ,65525,
+5 - ú - 250,-6  ,65530,
+6 - é - 233,-23 ,65513,
+7 - á - 225,-31 ,65505,
+8 - ű - 251,-5  ,65531,
+9 - í - 237,-19 ,65517,
+0 - ä - 228,-28 ,65508,
+*/
+var i:integer;
+begin
+ for i:=0 to length(w) do
+ begin
+  if (getChar(w,i)='1') then w:=setChar(w,chr(246),i);
+  if (getChar(w,i)='2') then w:=setChar(w,chr(252),i);
+  if (getChar(w,i)='3') then w:=setChar(w,chr(243),i);
+  if (getChar(w,i)='4') then w:=setChar(w,chr(244),i);
+  if (getChar(w,i)='5') then w:=setChar(w,chr(250),i);
+  if (getChar(w,i)='6') then w:=setChar(w,chr(233),i);
+  if (getChar(w,i)='7') then w:=setChar(w,chr(225),i);
+  if (getChar(w,i)='8') then w:=setChar(w,chr(251),i);
+  if (getChar(w,i)='9') then w:=setChar(w,chr(237),i);
+  if (getChar(w,i)='0') then w:=setChar(w,chr(228),i);
+ end;
+ encodetext:=w;
+end;
+
+function selectfalse(n:integer):string;
+var y:integer;
+begin
+ y:=random(WORDS)+1;
+ while y=n do
+ begin
+  y:=random(WORDS)+1;
+ end;
+if fibase then
+  selectfalse:=hu[y];
+else
+  selectfalse:=fi[y];
+end;
+
+procedure readdatasource();
+var res:resource;
+    line:string;
+    cf,ch,o:integer;
+begin
+o:=2*WORDS;
+line:='.';
+cf:=1;
+ch:=1;
+res := openResource('/data.txt');
+if (resourceAvailable(res)) then
+begin
+ for n:=1 to o do
+ begin
+  if ((n mod 2)=1) then
+   begin
+    fi[cf]:=readLine(res);
+    cf:=cf+1;
+   end
+  else
+   begin
+    hu[ch]:=readLine(res);
+    ch:=ch+1;
+   end;
+ end;
+ closeResource(res);
+end;
+end;
+
+procedure createnewquestion();
+var selq:integer;
+begin
+selq:=random(WORDS)+1;
+
+//asked[position]:=selq;
+if (random(100)<60) then
+  fibase:=true;
+else
+  fibase:=false;
+
+//corq:=random(4)+2;
+corq:=(random(100) mod 4)+2;
+if fibase then
+  scrtxt[1]:=encodetext(fi[selq]);
+else
+  scrtxt[1]:=encodetext(hu[selq]);
+
+scrcod[1]:=1;
+for n:=2 to 5 do
+begin
+ if n=corq then
+ begin
+  if fibase then
+    scrtxt[n]:=encodetext(hu[selq]);
+  else
+    scrtxt[n]:=encodetext(fi[selq]);
+  scrcod[n]:=3;
+ end
+ else
+ begin
+  scrtxt[n]:=encodetext(selectfalse(selq));
+  scrcod[n]:=2;
+ end;
+end;
+end;
+
+
+procedure asknewscreen();
+begin
+if position=0 then
+  begin
+    scrtxt[1]:='Menu';
+    scrtxt[2]:='Start';
+    scrtxt[3]:='Info';
+    scrtxt[4]:='Exit';
+    scrtxt[5]:='';
+    scrcod[1]:=1;
+    scrcod[2]:=2;
+    scrcod[3]:=2;
+    scrcod[4]:=2;
+    scrcod[5]:=0;
+    drwscr(scrtxt,scrcod);
+  end;
+
+if position=50 then
+  begin
+    setColor(0, 0, 128);
+    fillRect(0, 0, getWidth, getHeight);
+    setColor(255, 255, 0);
+    drawText(encodetext('N6vjegy'), (getWidth - getStringWidth('Nevjegy'))/2, 20);
+    drawText(encodetext('HuFi Kik6rdez4'), (getWidth - getStringWidth('HuFi Kikerdezo'))/2, 45);
+    drawText('v1.0.1', (getWidth - getStringWidth('v1.0.1'))/2, 60);
+    drawText(encodetext('Pint6r Gerg4'), (getWidth - getStringWidth('Pinter Gergo'))/2, 75);
+    drawText(encodetext('Szavak sz7ma: ')+WORDS, (getWidth - getStringWidth('Szavak szama: '+WORDS))/2, getHeight-getStringHeight('Szavak szama: ')-2);
+    repaint;
+  end;
+
+if position=60 then
+  begin
+    setColor(0, 128, 0);
+    fillRect(0, 0, getWidth, getHeight);
+    setColor(255, 255, 255);
+    drawText('Helyes!', (getWidth - getStringWidth('Helyes!'))/2, (getHeight - getStringHeight('Helyes!'))/2);
+    drawText('Helyes: '+score+'/'+lastposition+' ('+chr(246)+'ssz 40)', (getWidth - getStringWidth('Helyes: '+score+'/'+lastposition+' ('+chr(246)+'ssz 40)'))/2, (getHeight - getStringHeight('Eddig')-2));
+    if lastposition=40 then drawText(encodetext('v6ge.'), (getWidth - getStringWidth('Vege.'))/2, ((getHeight*2/3) - getStringHeight('Vege.')/2));
+    repaint;
+  end;
+
+if position=70 then
+  begin
+    setColor(128, 0, 0);
+    fillRect(0, 0, getWidth, getHeight);
+    setColor(255, 255, 255);
+    drawText(encodetext('Hib7s!'), (getWidth - getStringWidth('Hibas!'))/2, (getHeight - getStringHeight('Hibas!'))/2);
+    drawText('Helyes: '+score+'/'+lastposition+' ('+chr(246)+'ssz 40)', (getWidth - getStringWidth('Helyes: '+score+'/'+lastposition+' ('+chr(246)+'ssz 40)'))/2, (getHeight - getStringHeight('Eddig')-2));
+    if lastposition=40 then drawText(encodetext('v6ge.'), (getWidth - getStringWidth('Vege.'))/2, ((getHeight*2/3) - getStringHeight('Vege.')/2));
+    repaint;
+  end;
+
+if (position>0) and (position<=41) then
+  begin
+   createnewquestion;
+   drwscr(scrtxt,scrcod);
+  end;
+
+end;
+
+procedure resetasked();
+begin
+for i:=1 to 40 do
+  begin
+    asked[i]:=0;
+  end;
+end;
+
+procedure init();
+begin
+  finish:=false;
+  score:=0;
+  selected:=2;
+  position:=0;
+  lastposition:=0;
+  
+  resetaksed;
+  randomize;
+  readdatasource;
+end;
+
+
+begin
+ setColor(0, 0, 128);
+ fillRect(0, 0, getWidth, getHeight);
+ setColor(255, 255, 0);
+ drawText(encodetext('Bet1lt6s...'), (getWidth - getStringWidth('Betoltes...'))/2, (getHeight - getStringHeight('Betoltes...'))/2);
+ repaint;
+ init;
+ //while getKeyPressed <> KE_STAR do
+ while finish=false do
+ begin
+
+  {in about screen}
+  if position=50 then
+  begin
+    if (getKeyPressed <> KE_NONE) and (getKeyPressed <> KE_KEY5) and (keyToAction(getKeyPressed) <> GA_FIRE) then position:=0;
+    asknewscreen;
+  end;
+  
+  {in main screen}
+  if position=0 then
+  begin
+   if (selected>2) and ((getKeyPressed = KE_KEY2) or (keyToAction(getKeyPressed) = GA_UP  )) then selected:=selected-1;
+   if (selected<4) and ((getKeyPressed = KE_KEY8) or (keyToAction(getKeyPressed) = GA_DOWN)) then selected:=selected+1;
+   if (selected=4) and ((getKeyPressed = KE_KEY5) or (keyToAction(getKeyPressed) = GA_FIRE)) then finish:=true;
+   if (selected=3) and ((getKeyPressed = KE_KEY5) or (keyToAction(getKeyPressed) = GA_FIRE)) then position:=50;
+   if (selected=2) and ((getKeyPressed = KE_KEY5) or (keyToAction(getKeyPressed) = GA_FIRE)) then
+   begin
+     score:=0;
+     lastposition:=0;
+     position:=1;
+   end;
+   asknewscreen;
+  end;
+
+  {correct screen}
+  if position=60 then
+  begin
+    if (getKeyPressed <> KE_NONE) and (getKeyPressed <> KE_KEY5) and (keyToAction(getKeyPressed) <> GA_FIRE) then position:=lastposition+1;
+    if lastposition=40 then position:=0;
+    asknewscreen;
+  end;
+
+  {wrong screen}
+  if position=70 then
+  begin
+    if (getKeyPressed <> KE_NONE) and (getKeyPressed <> KE_KEY5) and (keyToAction(getKeyPressed) <> GA_FIRE) then position:=lastposition+1;
+    if lastposition=40 then position:=0;
+    asknewscreen;
+  end;
+
+  if (position>0) and (position<=41) and (position<>lastposition) then
+  begin
+   lastposition:=position;
+   asknewscreen;
+   delay(100);
+  end;
+
+  {in question screen}
+  if (position>0) and (position<=41) and (position=lastposition) then
+  begin
+    if ((getKeyPressed = KE_KEY2) or (keyToAction(getKeyPressed) = GA_UP  )) and (selected>2) then selected:=selected-1;
+    if ((getKeyPressed = KE_KEY8) or (keyToAction(getKeyPressed) = GA_DOWN)) and (selected<5) then selected:=selected+1;
+    drwscr(scrtxt,scrcod);
+    if ((getKeyPressed = KE_KEY5) or (keyToAction(getKeyPressed) = GA_FIRE)) then
+    begin
+       position:=position+1;
+       if (selected=corq) then
+         begin
+           position:=60;
+           score:=score+1;
+         end
+       else
+         begin
+           position:=70;
+         end;
+    end;
+  end;
+ 
+
+  {if midlet is interrupted, halt is better}
+  if isMidletPaused then halt;
+
+  {regular cyclic delay}
+  delay(125);
+
+ end;
+
+end.

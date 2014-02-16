@@ -1,0 +1,36 @@
+program menu;
+
+type item = record
+ text : string;
+ index: integer;
+ code : integer;
+end;
+
+{codes: 0 inactive, 1 active, 2 right (answer)}
+
+type screen = record
+ title  : string;
+ option1: item;
+ option2: item;
+ option3: item;
+ option4: item;
+end;
+
+var selected: integer;
+    finish  : boolean;
+
+begin
+
+ repeat
+  setColor(0, 0, 128);
+  fillRect(0, 0, getWidth, getHeight);
+  setColor(255, 255, 0);
+
+  drawText('Hello, World!', (getWidth -  getStringWidth('Hello, World!'))/2, 0);
+
+  Repaint;
+  setColor(255, 0, 0);
+  repaint;
+ { repeat that until any key is pressed }
+ until getKeyClicked <> 0;
+end.

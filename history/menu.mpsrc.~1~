@@ -1,0 +1,8 @@
+program menu;
+var exit:boolean;
+begin
+ exit:=false;
+ repeat
+
+ until exit=true;
+end.

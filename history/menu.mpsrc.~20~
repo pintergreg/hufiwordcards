@@ -1,0 +1,72 @@
+program menu;
+
+const ballSize = 15;
+
+      ballSpeed = 25;
+
+var xPos, yPos: integer;
+
+    xMove, yMove: integer;
+    finish:boolean;
+
+begin
+
+	xPos := 0;
+
+	yPos := 0;
+
+	xMove := 1;
+
+	yMove := 1;
+
+	repeat
+
+		{ erase the screen }
+
+		setColor(255, 255, 255);
+
+		fillRect(0, 0, getWidth, getHeight);
+
+
+
+		{ draw the ball }
+
+		setColor(255, 0, 0);
+
+		drawEllipse(xPos, yPos, ballSize, ballSize);
+
+
+
+		{ calculate new position }
+
+		xPos := xPos + xMove;
+
+		yPos := yPos + yMove;
+
+
+
+		{ change the direction if the ball hit the scren edge }
+
+		if (xPos + ballSize) > getWidth then xMove := -1;
+
+		if xPos < 0 then xMove := 1;
+
+
+
+		if (yPos + ballSize) > getHeight then yMove := -1;
+
+		if yPos < 0 then yMove := 1;
+
+
+
+		{ redraw the screen }
+
+		repaint;
+
+		delay(ballSpeed);
+
+
+
+		{ repeat that until any key is pressed  }
+
+	until getKeyClicked <> 0;

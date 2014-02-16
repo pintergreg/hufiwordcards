@@ -1,0 +1,31 @@
+program menu;
+
+procedure ClearScreen;
+
+begin
+
+  // Draw Panel Background
+
+  SetColor(99, 99, 99);
+
+  FillRect(0, 0, GetWidth, PANEL_HEIGHT);
+
+  // Clean Viewport
+
+  SetColor(255, 255, 255);
+
+  FillRect(0, PANEL_HEIGHT, GetWidth, GetHeight-PANEL_HEIGHT);
+
+end;
+
+//var exit:boolean;
+begin
+ ClearScreen;
+ //exit:=false;
+ repeat
+  if (GetKeyPressed=KE_KEY1) then
+  begin
+   //exit=true;
+  end;
+ until true;
+end.

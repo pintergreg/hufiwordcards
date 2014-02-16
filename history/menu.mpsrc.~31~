@@ -1,0 +1,32 @@
+program menu;
+
+type item = record
+ text : string;
+ index: byte;
+ code : byte;
+end;
+
+var selected: integer;
+    finish  : boolean;
+
+begin
+
+	repeat
+		{ erase the screen }
+		setColor(0, 0, 128);
+		fillRect(0, 0, getWidth, getHeight);
+    setColor(255, 255, 0);
+
+    drawText('Hello, World!', (getWidth -  getStringWidth('Hello, World!'))/2, 0);
+
+  Repaint;
+
+		setColor(255, 0, 0);
+
+
+
+		repaint;
+		delay(ballSpeed);
+		{ repeat that until any key is pressed  }
+	until getKeyClicked <> 0;
+end.
