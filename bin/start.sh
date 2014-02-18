@@ -1,1 +1,0 @@
-java -jar /home/gergo/tarolo/j2me/microemulator/microemulator.jar ./menu.jad
