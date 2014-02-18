@@ -4,7 +4,7 @@ type
  cod=array[1..5] of integer;
 
 const WORDS=336;
-      VER='v2.0.2';
+      VER='v2.0.1';
       LANG1='Fi';
       LANG2='Hu';
       BATCH=84;
@@ -391,7 +391,7 @@ if position=100 then
 
 if position=101 then
   begin
-    if randomCards then y:=mixedBatchWords[((selectedCard-1) mod BATCH)+1] else y:=selectedCard;
+    if randomCards then y:=mixedBatchWords[selectedCard mod BATCH] else y:=selectedCard;
     if langswitch then
       drawCards(encodeText(fi[y]),encodeText(hu[y]))
     else
@@ -418,8 +418,12 @@ var i,n:integer;
 begin
   for i:=1 to BATCH do mixedBatchWords[i]:=0;
   for i:=1 to BATCH do begin
-    repeat n:=random(84)+offset;until not containsMixed(n);
-    mixedBatchWords[i]:=n;
+   { repeat n:=random(84)+offset;
+  setcolor(255,255,255);
+  drawText(integertostring(n),0,0);
+  repaint;
+    {until not containsMixed(n);}
+    mixedBatchWords[i]:=i;
   end;
 end;
 
@@ -543,7 +547,7 @@ begin
       selectedCard:=(selectedBatch*BATCH)+1;
       startCard:=selectedCard;
       endCard:=startCard+83;
-      if randomCards then generateRandomCardOrder(startCard);
+      //if randomCards then generateRandomCardOrder(startCard);
     end;
     {without this, coming from menu with key 5 or fire program jumped directly to the card sreen without the card option screen. this forces to wait another key5/fire}
     if ((getKeyPressed = KE_KEY5 ) or (keyToAction(getKeyPressed) = GA_FIRE)) and (position<>lastPosition) then lastPosition:=position;
@@ -562,7 +566,6 @@ begin
     if ((getKeyPressed = KE_POUND)) then position:=100;
     askNewScreen;
   end;
-
  
   {if midlet is interrupted, halt is better}
   if isMidletPaused then halt;

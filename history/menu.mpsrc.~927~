@@ -4,7 +4,7 @@ type
  cod=array[1..5] of integer;
 
 const WORDS=336;
-      VER='v2.0.2';
+      VER='v2.0.1';
       LANG1='Fi';
       LANG2='Hu';
       BATCH=84;
@@ -246,22 +246,22 @@ begin
   //Language option - border
   setColor(255, 255, 0);
   tmp:=(getwidth-100)/2;
-  drawRoundRect(50, top, getWidth-100, getStringHeight(LANG1)+3, 2, 2);
-  drawLine(50+tmp,top,50+tmp,top+getStringHeight(LANG1)+3);
+  drawRoundRect(50, top, getWidth-100, 16, 2, 2);
+  drawLine(50+tmp,top,50+tmp,71);
 
   if switch then
-  begin {language 1 active}
+  begin //opt1
     setColor(255, 255, 255);
-    fillRect(51, top+1, tmp-1, getStringHeight(LANG1)+2);
+    fillRect(51, top+1, tmp-1, 15);
     setColor(0, 0, 128);
     drawText(LANG1, 50+(tmp-getStringWidth(LANG1))/2, top+2);
     setColor(128, 128, 0);
     drawText(LANG2, 50+tmp+(tmp-getStringWidth(LANG2))/2, top+2);
   end
   else
-  begin {language 2 active}
+  begin //opt2
     setColor(255, 255, 255);
-    fillRect(50+tmp+1, top+1, tmp-1, getStringHeight(LANG1)+2);
+    fillRect(50+tmp+1, top+1, tmp-1, getStringHeight(LANG1));
     setColor(128, 128, 0);
     drawText(LANG1, 50+(tmp-getStringWidth(LANG1))/2, top+2);
     setColor(0, 0, 128);
@@ -301,16 +301,16 @@ begin
 
   {random option}
   setColor(255,255,0);
-  tmp:=getStringwidth('*')*2;
+  tmp:=getStringHeight('*')*2;
   top:=top+24;
-  drawRect((getWidth-getStringWidth('Veletlen sorrend')-25)/2,top+1,tmp,tmp);
+  drawRect((getWidth-getStringWidth('Veletlen sorrend')-20)/2,top+1,tmp,tmp);
   drawText(encodeText('V6letlen sorrend'),(getWidth-getStringWidth('Veletlen sorrend')+tmp)/2,top);
   setColor(255,255,255);
-  drawText('*',((getWidth-getStringWidth('Veletlen sorrend')-25)/2)+4,top+2);
+  drawText('*',((getWidth-getStringWidth('Veletlen sorrend')-20)/2)+3,top+1);
   if randomCards then begin
-    fillRect(((getWidth-getStringWidth('Veletlen sorrend')-25)/2)+1,top+2,tmp-1,tmp-1);
+    fillRect(((getWidth-getStringWidth('Veletlen sorrend')-20)/2)+1,top+2,tmp-1,tmp-1);
     setColor(0,0,128);
-    drawText('*',((getWidth-getStringWidth('Veletlen sorrend')-25)/2)+4,top+2);
+    drawText('*',((getWidth-getStringWidth('Veletlen sorrend')-20)/2)+3,top+1);
   end;
 
   {back, forward buttons}
@@ -391,7 +391,7 @@ if position=100 then
 
 if position=101 then
   begin
-    if randomCards then y:=mixedBatchWords[((selectedCard-1) mod BATCH)+1] else y:=selectedCard;
+    if randomCards then y:=mixedBatchWords[selectedCard] else y:=selectedCard;
     if langswitch then
       drawCards(encodeText(fi[y]),encodeText(hu[y]))
     else
@@ -400,9 +400,9 @@ if position=101 then
 
 end;
 
-{Gives back true, if n is in mixedBatchWords}
-function containsMixed(n:integer):boolean;
-var r:boolean;i:integer;
+
+function containsA(n:integer):boolean;
+var r:boolean;
 begin
   r:=false;
   for i:=1 to BATCH do
@@ -410,15 +410,15 @@ begin
     if 0=mixedBatchWords[i] then break;
     if n=mixedBatchWords[i] then begin r:=true;break;end;
   end;
-  containsMixed:=r;
+  containsA:=r;
 end;
 
-procedure generateRandomCardOrder(offset:integer);
+procedure generateRandomCardOrder(start:integer);
 var i,n:integer;
 begin
   for i:=1 to BATCH do mixedBatchWords[i]:=0;
   for i:=1 to BATCH do begin
-    repeat n:=random(84)+offset;until not containsMixed(n);
+    repeat n:=random(84)+start;until not containsA(n);
     mixedBatchWords[i]:=n;
   end;
 end;
@@ -562,7 +562,6 @@ begin
     if ((getKeyPressed = KE_POUND)) then position:=100;
     askNewScreen;
   end;
-
  
   {if midlet is interrupted, halt is better}
   if isMidletPaused then halt;

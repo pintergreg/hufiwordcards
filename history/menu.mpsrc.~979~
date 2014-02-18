@@ -572,3 +572,11 @@ begin
  end;
 
 end.
+
+/*
+2.0.1
+graphical bugs fixed at cardoption screen
+
+2.0.2
+batch>1 & random not working bug fixed
+*/
