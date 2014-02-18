@@ -3,8 +3,8 @@ type
  txt=array[1..5] of string;
  cod=array[1..5] of integer;
 
-const WORDS=336;
-      VER='v1.2';
+const WORDS=252;
+      VER='v1.1';
 
 var i, n, score, position, lastposition, selected, corq: integer;
     finish, fibase: boolean;

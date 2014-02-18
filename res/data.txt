@@ -380,7 +380,7 @@ turvallinen
 biztons7gos
 kirkko
 templom
-suuri
+iso, suuri
 nagy
 kaupunki
 v7ros
@@ -502,3 +502,171 @@ ruoka
 6tel
 tulla
 j1n
+panna
+rak
+kest00
+tart
+l0hett00
+k2ld
+pyyhe
+t1r2lk1z4
+menn0 rikki
+t1nkre megy
+mainos
+rekl7m
+sairas
+beteg [mn]
+b7r, hab7r
+vaikka
+taide
+m8v6szet
+keskip0iv0
+d6l [id4]
+sota
+h7bor5
+s0nki
+borosta
+tasku
+zseb
+utelias
+k9v7ncsi
+jorata, tanssia
+t7ncol
+kalenteri
+napt7r
+hylly
+polc
+astia
+ed6ny
+vetolaatikko
+fi3k
+pitk0
+hossz5
+suora
+egyenes
+laiva
+haj3
+lintu
+mad7r
+luu
+csont
+rehellinen
+4szinte
+halpa
+olcs3
+yhteinen
+k1z1s
+syv0
+m6ly
+lihava
+k1v6r
+hoikka
+sov7ny, v6kony
+menneisyys
+m5lt
+nykyisyys
+jelen
+tulevaisuus
+j1v4
+v0kev0
+er4s
+heikko
+gyenge, er4tlen
+makea
+6des
+kitker0
+keser8, fanyar
+hapan
+savany5
+suolainen
+s3s
+maku
+9z
+v0ri
+sz9n
+kyynel
+k1nny
+kuuma
+forr3
+julma
+kegyetlen
+kuollut
+halott
+likainen
+piszkos
+vuosi
+6v
+viikko
+h6t [id4]
+eilinen, eilisp0iv0
+tegnap
+huominen
+holnap
+t0n00n
+ma
+l0hes, melkein
+majdnem
+vain
+csak
+kovin
+nagyon
+pyyt00
+k6r
+kulta
+arany
+hopea
+ez2st
+pel0t0
+f6l, tart valamit4l
+pelko
+f6lelem
+mielipide
+v6lem6ny
+tasapaino
+egyens5ly
+nyt
+most
+00net1n
+cs1ndes
+hiljainen
+halk
+00nek0s
+hangos
+kysymys
+k6rd6s
+kysy0
+k6rdez
+vastaus
+v7lasz
+vastata
+v7laszol
+itke0
+s9r [i]
+hauta
+s9r, s9rhely
+iloinen
+vid7m
+surullinen
+szomor5
+naimisissa
+h7zas
+avioliitto
+h7zass7g
+aviomies
+f6rj
+vaimo
+feles6g
+k1yh0
+szeg6ny
+rikas
+gazdag
+poika
+fi5
+tytt1
+l7ny
+hame
+szoknya
+lukuj0rjestys
+3rarend
+kuolla
+meghal
