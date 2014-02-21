@@ -180,6 +180,8 @@ begin
 
   cardWidth:=getStringWidth('mmmmmmmmmm')+30;
 
+  setColor(0, 0, 0);
+  drawRect(((getWidth-cardWidth)/2), 25, cardWidth, 60);
   setColor(255, 255, 255);
   fillRect(((getWidth-cardWidth)/2), 25, cardWidth, 60);
 
@@ -198,6 +200,9 @@ begin
 
   if opened then
   begin
+    setColor(0, 0, 0);
+    drawRect(((getWidth-cardWidth)/2), 105, cardWidth, 60);
+
     setColor(255, 255, 255);
     fillRect(((getWidth-cardWidth)/2), 105, cardWidth, 60);
 
