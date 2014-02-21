@@ -30,25 +30,8 @@ I found that MidletPascal 3.x has problems with charachter encoding, so I was un
 But I managed to determine that if I use chr() function with proper values I can force the compilet to display them. So, I wrote a not too nice function to solve my problem with replacements.
 The drawback of this method is its uglyness: I have to store words in database without accents, so I store them with numbers instead. The following table shows my 'solution'.
 
-<table border="1">
-<tr>
-<td>character</td>
-<td>code in db</td>
-<td>value to replace to</td>
-</tr>
-</table>
-
-| Left align | Right align | Center align |
-|:-----------|------------:|:------------:|
-| This       |        This |     This     |
-| column     |      column |    column    |
-| will       |        will |     will     |
-| be         |          be |      be      |
-| left       |       right |    center    |
-| aligned    |     aligned |   aligned    |
-
 |character|code in db|value to replace|
-|---------|----------|----------------|
+|:-------:|:--------:|:--------------:|
 |ö        |1         |246             |
 |ü        |2         |252             |
 |ó        |3         |243             |
