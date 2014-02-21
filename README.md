@@ -43,7 +43,7 @@ The drawback of this method is its uglyness: I have to store words in database w
 |í        |9         |237             |
 |ä        |0         |228             |
 
-Fortunately, I need ten characters (I don't need capitals'), and my function:
+Fortunately, I need ten characters (I don't need capitals), and my function:
 
 <pre><code>function encodeText(w:string):string;
 var i:integer;
