@@ -26,7 +26,61 @@ There can be max. 2 expressions in a row with a meaning, separated by a comma an
 
 ## Character coding
 
-to be written
+I found that MidletPascal 3.x has problems with charachter encoding, so I was unable to display Hungarian (and Finnsh) accents if I write them into the source code.
+But I managed to determine that if I use chr() function with proper values I can force the compilet to display them. So, I wrote a not too nice function to solve my problem with replacements.
+The drawback of this method is its uglyness: I have to store words in database without accents, so I store them with numbers instead. The following table shows my 'solution'.
+
+<table border="1">
+<tr>
+<td>character</td>
+<td>code in db</td>
+<td>value to replace to</td>
+</tr>
+</table>
+
+| Left align | Right align | Center align |
+|:-----------|------------:|:------------:|
+| This       |        This |     This     |
+| column     |      column |    column    |
+| will       |        will |     will     |
+| be         |          be |      be      |
+| left       |       right |    center    |
+| aligned    |     aligned |   aligned    |
+
+|character|code in db|value to replace|
+|---------|----------|----------------|
+|ö        |1         |246             |
+|ü        |2         |252             |
+|ó        |3         |243             |
+|ő        |4         |244             |
+|ú        |5         |250             |
+|é        |6         |233             |
+|á        |7         |225             |
+|ű        |8         |251             |
+|í        |9         |237             |
+|ä        |0         |228             |
+
+Fortunately, I need ten characters (I don't need capitals'), and my function:
+
+<pre><code>function encodeText(w:string):string;
+var i:integer;
+begin
+  for i:=0 to length(w) do
+  begin
+    if (getChar(w,i)='1') then w:=setChar(w,chr(246),i);
+    if (getChar(w,i)='2') then w:=setChar(w,chr(252),i);
+    if (getChar(w,i)='3') then w:=setChar(w,chr(243),i);
+    if (getChar(w,i)='4') then w:=setChar(w,chr(244),i);
+    if (getChar(w,i)='5') then w:=setChar(w,chr(250),i);
+    if (getChar(w,i)='6') then w:=setChar(w,chr(233),i);
+    if (getChar(w,i)='7') then w:=setChar(w,chr(225),i);
+    if (getChar(w,i)='8') then w:=setChar(w,chr(251),i);
+    if (getChar(w,i)='9') then w:=setChar(w,chr(237),i);
+    if (getChar(w,i)='0') then w:=setChar(w,chr(228),i);
+  end;
+  encodeText:=w;
+end;
+</code></pre>
 
 Versions
 ========
@@ -40,6 +94,10 @@ Version has a X.Y.Z format and changesd according to the following rules:
 
 Changes
 =======
+
+### 2.1
+* added another batch of words (now 420 word in db)
+* improved card drawing
 
 ### 2.0.2
 * very annoying bug fixed; when batch (>1) was selected, the random card display wasn't' worked (infinty loop occured)
