@@ -3,8 +3,8 @@ type
  txt=array[1..5] of string;
  cod=array[1..5] of integer;
 
-const WORDS=420;
-      VER='v2.1';
+const WORDS=336;
+      VER='v2.0.2';
       LANG1='Fi';
       LANG2='Hu';
       BATCH=84;
