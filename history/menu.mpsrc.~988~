@@ -220,15 +220,11 @@ begin
   if selectedCard=endCard then
     begin
       setColor(255,255,0);
-      //drawText(encodeText('V6ge.'),(getWidth - getStringWidth('Vege.'))/2,getHeight-(getStringHeight('Vege.')*3+4));
-      drawText(encodeText('V6ge, vissza: # gomb'),4,getHeight-getStringHeight('Vege, vissza: # gomb')-2);
+      drawText(encodeText('V6ge.'),(getWidth - getStringWidth('Vege.'))/2,getHeight-(getStringHeight('Vege.')*2+4));
     end
-  else
-    begin
-      setColor(128,128,0);
-      drawText('Vissza: # gomb',4,getHeight-getStringHeight('Vissza: # gomb')-2);
-    end;
-    
+  else setColor(128,128,0);
+    drawText('Vissza: # gomb',4,getHeight-getStringHeight('Vissza: # gomb')-2);
+
   repaint;
 end;
 

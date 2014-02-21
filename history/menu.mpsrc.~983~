@@ -202,33 +202,24 @@ begin
     setColor(255, 255, 255);
     fillRect(((getWidth-cardWidth)/2), 50+cardHeight, cardWidth, cardHeight);
 
-  {draw l2 text to the cards (if opened)}
-    setColor(0, 0, 128);
-    p:=pos(l2,', ');
-    if (p>-1) then
-    begin
-      t:=copy(l2,0,p+1);
-      u:=copy(l2,p+2,length(l2));
-      drawText(t,(getWidth - getStringWidth(t))/2, 65+cardHeight);
-      drawText(u,(getWidth - getStringWidth(u))/2, 75+cardHeight+getStringHeight('H'));
-    end
-    else drawText(l2,(getWidth - getStringWidth(l2))/2, 65+cardHeight);
+{draw l2 text to the cards (if opened)}
+  setColor(0, 0, 128);
+  p:=pos(l2,', ');
+  if (p>-1) then
+  begin
+    t:=copy(l2,0,p+1);
+    u:=copy(l2,p+2,length(l2));
+    drawText(t,(getWidth - getStringWidth(t))/2, 65+cardHeight);
+    drawText(u,(getWidth - getStringWidth(u))/2, 75+cardHeight+getStringHeight('H'));
+  end
+  else drawText(l2,(getWidth - getStringWidth(l2))/2, 65+cardHeight);
 
   end;
 
 {back, forward buttons}
-  if selectedCard=endCard then
-    begin
-      setColor(255,255,0);
-      //drawText(encodeText('V6ge.'),(getWidth - getStringWidth('Vege.'))/2,getHeight-(getStringHeight('Vege.')*3+4));
-      drawText(encodeText('V6ge, vissza: # gomb'),4,getHeight-getStringHeight('Vege, vissza: # gomb')-2);
-    end
-  else
-    begin
-      setColor(128,128,0);
-      drawText('Vissza: # gomb',4,getHeight-getStringHeight('Vissza: # gomb')-2);
-    end;
-    
+  setColor(128,128,0);
+  drawText('Vissza: # gomb',4,getHeight-getStringHeight('Vissza: # gomb')-2);
+
   repaint;
 end;
 

@@ -229,6 +229,7 @@ begin
       drawText('Vissza: # gomb',4,getHeight-getStringHeight('Vissza: # gomb')-2);
     end;
     
+
   repaint;
 end;
 
