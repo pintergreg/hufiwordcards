@@ -172,17 +172,16 @@ end;
 end;
 
 procedure drawCards(l1:string;l2:string);
-var rig,p,cardWidth,cardHeight:integer;
+var rig,p,cardWidth:integer;
     t,u:string;
 begin
   setColor(0, 0, 128);
   fillRect(0, 0, getWidth, getHeight);
 
   cardWidth:=getStringWidth('mmmmmmmmmm')+30;
-  cardHeight:=getStringHeight('H')*2+40;
 
   setColor(255, 255, 255);
-  fillRect(((getWidth-cardWidth)/2), 25, cardWidth, cardHeight);
+  fillRect(((getWidth-cardWidth)/2), 25, cardWidth, 60);
 
 {draw l1 text to the cards}
   setColor(0, 0, 128);
@@ -192,7 +191,7 @@ begin
     t:=copy(l1,0,p+1);
     u:=copy(l1,p+2,length(l1));
     drawText(t,(getWidth - getStringWidth(t))/2, 40);
-    drawText(u,(getWidth - getStringWidth(u))/2, 50+getStringHeight('H'));
+    drawText(u,(getWidth - getStringWidth(u))/2, 60);
   end
   else
     drawText(l1,(getWidth - getStringWidth(l1))/2, 40);
@@ -200,7 +199,7 @@ begin
   if opened then
   begin
     setColor(255, 255, 255);
-    fillRect(((getWidth-cardWidth)/2), 50+cardHeight, cardWidth, cardHeight);
+    fillRect(((getWidth-cardWidth)/2), 105, cardWidth, 60);
 
 {draw l2 text to the cards (if opened)}
   setColor(0, 0, 128);
@@ -209,10 +208,10 @@ begin
   begin
     t:=copy(l2,0,p+1);
     u:=copy(l2,p+2,length(l2));
-    drawText(t,(getWidth - getStringWidth(t))/2, 65+cardHeight);
-    drawText(u,(getWidth - getStringWidth(u))/2, 75+cardHeight+getStringHeight('H'));
+    drawText(t,(getWidth - getStringWidth(t))/2, 118);
+    drawText(u,(getWidth - getStringWidth(u))/2, 138);
   end
-  else drawText(l2,(getWidth - getStringWidth(l2))/2, 65+cardHeight);
+  else drawText(l2,(getWidth - getStringWidth(l2))/2, 118);
 
   end;
 

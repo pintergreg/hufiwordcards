@@ -200,7 +200,7 @@ begin
   if opened then
   begin
     setColor(255, 255, 255);
-    fillRect(((getWidth-cardWidth)/2), 50+cardHeight, cardWidth, cardHeight);
+    fillRect(((getWidth-cardWidth)/2), 50+cardHeight, cardWidth, 60);
 
 {draw l2 text to the cards (if opened)}
   setColor(0, 0, 128);
