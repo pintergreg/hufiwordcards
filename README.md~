@@ -81,11 +81,11 @@ Changes
 ### 2.2
 * wrong screen from now on shows the correct answer
 * changed batch size to 42 (from 84)
-* added another 42 words (now 462 words in db)
+* added another 42 words (now 462 word in db)
 * added card position label to card screen
 
 ### 2.1
-* added another batch of words (now 420 words in db)
+* added another batch of words (now 420 word in db)
 * improved card drawing
 
 ### 2.0.2
@@ -98,7 +98,7 @@ Changes
 * the 'main' feature added (word cards)
 
 ### 1.2
-* added another batch (now 336 words in the database)
+* added another batch (not 336 word in the database)
 
 ### 1.1
 * added another batch (84 words) 
