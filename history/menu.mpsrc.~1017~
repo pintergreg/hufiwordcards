@@ -234,7 +234,7 @@ begin
     begin
       setColor(128,128,0);
       drawText('Vissza: # gomb',4,getHeight-getStringHeight('Vissza: # gomb')-2);
-      drawText(integertostring(selectedCard)+'/42',getWidth-4-getStringWidth(integertostring(selectedCard)+'/42'),getHeight-getStringHeight('/40')-2);
+      drawText(integertostring(position)+'/40',getWidth-4-getStringWidth(integertostring(position)+'/40'),getHeight-getStringHeight('/40')-2);
     end;
     
   repaint;

@@ -8,7 +8,7 @@ const WORDS=462;
       LANG1='Fi';
       LANG2='Hu';
       BATCH=42;//84
-      BATCHES=11;
+      BATCHES=11;//5
 
 var i, n, score, position, lastposition, selected, corq, selectedBatch, selectedCard, startCard, endCard: integer;
     finish, fibase, opened, langSwitch, randomCards: boolean;
@@ -234,7 +234,6 @@ begin
     begin
       setColor(128,128,0);
       drawText('Vissza: # gomb',4,getHeight-getStringHeight('Vissza: # gomb')-2);
-      drawText(integertostring(selectedCard)+'/42',getWidth-4-getStringWidth(integertostring(selectedCard)+'/42'),getHeight-getStringHeight('/40')-2);
     end;
     
   repaint;
