@@ -7,8 +7,8 @@ const WORDS=420;
       VER='v2.1';
       LANG1='Fi';
       LANG2='Hu';
-      BATCH=42;//84
-      BATCHES=10;//5
+      BATCH=84;
+      BATCHES=5;
 
 var i, n, score, position, lastposition, selected, corq, selectedBatch, selectedCard, startCard, endCard: integer;
     finish, fibase, opened, langSwitch, randomCards: boolean;
@@ -557,7 +557,7 @@ begin
       position:=101;
       selectedCard:=(selectedBatch*BATCH)+1;
       startCard:=selectedCard;
-      endCard:=startCard+BATCH-1;
+      endCard:=startCard+83;
       if randomCards then generateRandomCardOrder(startCard);
     end;
     {without this, coming from menu with key 5 or fire program jumped directly to the card sreen without the card option screen. this forces to wait another key5/fire}

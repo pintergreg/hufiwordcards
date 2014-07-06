@@ -557,7 +557,7 @@ begin
       position:=101;
       selectedCard:=(selectedBatch*BATCH)+1;
       startCard:=selectedCard;
-      endCard:=startCard+BATCH-1;
+      endCard:=startCard+83;
       if randomCards then generateRandomCardOrder(startCard);
     end;
     {without this, coming from menu with key 5 or fire program jumped directly to the card sreen without the card option screen. this forces to wait another key5/fire}
