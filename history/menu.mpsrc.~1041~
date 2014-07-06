@@ -311,10 +311,10 @@ begin
   drawLine(getWidth/2,top,getWidth/2+8,top-4);
 
   setColor(255,255,255);
-  fillRect(51,top-36,getWidth-101,29);{top-30 volt és 23}
+  fillRect(51,top-36,getWidth-101,23);{top-30 volt}
   setColor(0,0,128);
 
-  drawText(integerToString((selectedBatch*BATCH)+1)+'-'+integerToString((selectedBatch+1)*BATCH), (getWidth - getStringWidth(integerToString((selectedBatch*BATCH)+1)+'-'+integerToString((selectedBatch+1)*BATCH)))/2, top-32);{top-26 volt}
+  drawText(integerToString((selectedBatch*BATCH)+1)+'-'+integerToString((selectedBatch+1)*BATCH), (getWidth - getStringWidth(integerToString((selectedBatch*BATCH)+1)+'-'+integerToString((selectedBatch+1)*BATCH)))/2, top-26);
 
 //setcolor(255,255,255);drawText(integertostring(getStringHeight('|')),2,2);//21 a telon
 

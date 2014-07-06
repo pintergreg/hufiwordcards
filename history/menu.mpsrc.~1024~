@@ -290,13 +290,9 @@ begin
   top:=top+19;{102}
 
   tmp:=(getwidth-80)/2;
-  {drawRoundRect(50, top, getWidth-100, getStringHeight('|'+6)+30, 2, 2);//146 volt
+  drawRoundRect(50, top, getWidth-100, getStringHeight('|'+6), 2, 2);//44
   drawLine(50, top+10, getWidth-50, top+10);
-  drawLine(50, top+getStringHeight('|'+6)+4, getWidth-50, top+getStringHeight('|'+6)+4);//34, azaz 136}
-
-  drawRoundRect(50, top, getWidth-100, 51, 2, 2);
-  drawLine(50, top+10, getWidth-50, top+10);
-  drawLine(50, top+40, getWidth-50, top+40);
+  drawLine(50, top+34, getWidth-50, top+34);
 
   top:=top+3;
   {up arrow}
@@ -304,19 +300,17 @@ begin
   drawLine(getWidth/2,top,getWidth/2-8,top+4);
   drawLine(getWidth/2,top,getWidth/2+8,top+4);
 
-  top:=top+44;{38 volt}{143}
+  top:=top+38;{143}
   {down arrow}
   if selectedBatch<BATCHES-1 then setColor(255, 255, 0) else setColor(128, 128, 0);
   drawLine(getWidth/2,top,getWidth/2-8,top-4);
   drawLine(getWidth/2,top,getWidth/2+8,top-4);
 
   setColor(255,255,255);
-  fillRect(51,top-36,getWidth-101,29);{top-30 volt és 23}
+  fillRect(51,top-30,getWidth-101,23);
   setColor(0,0,128);
 
-  drawText(integerToString((selectedBatch*BATCH)+1)+'-'+integerToString((selectedBatch+1)*BATCH), (getWidth - getStringWidth(integerToString((selectedBatch*BATCH)+1)+'-'+integerToString((selectedBatch+1)*BATCH)))/2, top-32);{top-26 volt}
-
-//setcolor(255,255,255);drawText(integertostring(getStringHeight('|')),2,2);//21 a telon
+  drawText(integerToString((selectedBatch*BATCH)+1)+'-'+integerToString((selectedBatch+1)*BATCH), (getWidth - getStringWidth(integerToString((selectedBatch*BATCH)+1)+'-'+integerToString((selectedBatch+1)*BATCH)))/2, top-26);
 
   {random option}
   setColor(255,255,0);
