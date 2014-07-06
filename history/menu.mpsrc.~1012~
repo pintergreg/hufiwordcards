@@ -3,12 +3,12 @@ type
  txt=array[1..5] of string;
  cod=array[1..5] of integer;
 
-const WORDS=462;
-      VER='v2.2';
+const WORDS=420;
+      VER='v2.1';
       LANG1='Fi';
       LANG2='Hu';
       BATCH=42;//84
-      BATCHES=11;//5
+      BATCHES=10;//5
 
 var i, n, score, position, lastposition, selected, corq, selectedBatch, selectedCard, startCard, endCard: integer;
     finish, fibase, opened, langSwitch, randomCards: boolean;
@@ -433,7 +433,7 @@ var i,n:integer;
 begin
   for i:=1 to BATCH do mixedBatchWords[i]:=0;
   for i:=1 to BATCH do begin
-    repeat n:=random(BATCH)+offset;until not containsMixed(n);
+    repeat n:=random(84)+offset;until not containsMixed(n);
     mixedBatchWords[i]:=n;
   end;
 end;

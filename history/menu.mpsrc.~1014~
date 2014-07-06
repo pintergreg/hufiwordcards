@@ -8,7 +8,7 @@ const WORDS=462;
       LANG1='Fi';
       LANG2='Hu';
       BATCH=42;//84
-      BATCHES=11;//5
+      BATCHES=10;//5
 
 var i, n, score, position, lastposition, selected, corq, selectedBatch, selectedCard, startCard, endCard: integer;
     finish, fibase, opened, langSwitch, randomCards: boolean;
