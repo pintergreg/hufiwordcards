@@ -78,6 +78,10 @@ Version has a X.Y.Z format and changesd according to the following rules:
 Changes
 =======
 
+### 2.2.1
+* card position bug fixed
+* card option screen graphical bug fixed 
+
 ### 2.2
 * wrong screen from now on shows the correct answer
 * changed batch size to 42 (from 84)
