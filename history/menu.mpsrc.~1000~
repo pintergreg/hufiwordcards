@@ -12,7 +12,6 @@ const WORDS=420;
 
 var i, n, score, position, lastposition, selected, corq, selectedBatch, selectedCard, startCard, endCard: integer;
     finish, fibase, opened, langSwitch, randomCards: boolean;
-    correct: string;
     scrtxt: array [1..5] of string;
     scrcod: array [1..5] of integer;
     asked: array [1..40] of integer;
@@ -149,15 +148,9 @@ else
 
 corq:=(random(100) mod 4)+2;
 if fibase then
-  begin
-    scrtxt[1]:=encodeText(fi[selq]);
-    correct:=encodeText(hu[selq]);
-  end
+  scrtxt[1]:=encodeText(fi[selq]);
 else
-  begin
-   scrtxt[1]:=encodeText(hu[selq]);
-   correct:=encodeText(fi[selq]);
-  end;
+  scrtxt[1]:=encodeText(hu[selq]);
 
 scrcod[1]:=1;
 for n:=2 to 5 do
@@ -386,7 +379,7 @@ if position=70 then
     setColor(255, 255, 255);
     drawText(encodeText('Hib7s!'), (getWidth - getStringWidth('Hibas!'))/2, (getHeight - getStringHeight('Hibas!'))/2);
 
-    drawText(encodeText('A helyes: '+correct), (getWidth - getStringWidth('a helyes: '+correct))/2, (getHeight - getStringHeight('Hibas!'))/2+2*getStringHeight('A helyes: '));
+    drawText(encodeText('A helyes: '+hu[corq]), (getWidth - getStringWidth('a helyes: '+corq))/2, (getHeight - getStringHeight('Hibas!'))/2+2*getStringHeight('A helyes: '));
 
     drawText('Helyes: '+score+'/'+lastposition+' ('+chr(246)+'ssz 40)', (getWidth - getStringWidth('Helyes: '+score+'/'+lastposition+' ('+chr(246)+'ssz 40)'))/2, (getHeight - getStringHeight('Eddig')-2));
     if lastposition=40 then drawText(encodeText('v6ge.'), (getWidth - getStringWidth('Vege.'))/2, ((getHeight*2/3) - getStringHeight('Vege.')/2));

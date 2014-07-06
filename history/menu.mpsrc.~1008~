@@ -151,13 +151,13 @@ corq:=(random(100) mod 4)+2;
 if fibase then
   begin
     scrtxt[1]:=encodeText(fi[selq]);
-    correct:=encodeText(hu[selq]);
+    correct:=encodeText(fi[selq]);
   end
 else
   begin
    scrtxt[1]:=encodeText(hu[selq]);
-   correct:=encodeText(fi[selq]);
-  end;
+   correct:=encodeText(hu[selq]);
+  end
 
 scrcod[1]:=1;
 for n:=2 to 5 do
