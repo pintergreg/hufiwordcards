@@ -78,6 +78,9 @@ Version has a X.Y.Z format and changesd according to the following rules:
 Changes
 =======
 
+### 2.3
+* added another 42 words (now 504 words in db)
+
 ### 2.2.1
 * card position bug fixed
 * card option screen graphical bug fixed 

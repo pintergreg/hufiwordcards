@@ -4,7 +4,7 @@ type
  cod=array[1..5] of integer;
 
 const WORDS=504;
-      VER='v2.3';
+      VER='v2.2.1';
       LANG1='Fi';
       LANG2='Hu';
       BATCH=42;//84
