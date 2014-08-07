@@ -254,10 +254,10 @@ viikset
 bajusz
 lakki
 sapka
-muuri
+muuri, sein0
 fal
 lasi
-poh7r
+2veg, poh7r
 lyijykyn0
 ceruza
 lautanen
@@ -380,7 +380,7 @@ turvallinen
 biztons7gos
 kirkko
 templom
-suuri
+suuri, iso
 nagy
 kaupunki
 v7ros
@@ -608,7 +608,7 @@ l0hes, melkein
 majdnem
 vain
 csak
-kovin
+kovin, hyvin
 nagyon
 pyyt00
 k6r
@@ -968,8 +968,6 @@ kana
 ty5k
 kauhu
 borzalom, rettenet
-sein0
-fal
 tieto
 ismeret, tud7s
 taito, tiede
@@ -992,7 +990,7 @@ usko
 hit, vall7s
 valitettavasti
 sajnos
-puhelinnumerosi
+puhelinnumero
 telefonsz7m
 s0hk1posti
 e-mail
@@ -1006,3 +1004,89 @@ ateria
 6tkez6s
 heti
 s2rg4sen, azonnal
+puoli
+f6l [szn]
+vailla
+n6lk2l
+her0t0
+felkel, fel6bred
+nojatuoli, laiskanlinna
+karossz6k, fotel
+ty1p1yt0, kirjoitusp1yt0
+9r3asztal
+jalkalamppu
+7ll3l7mpa
+pyyhekumi
+rad9r
+ablakp7rk7ny
+ikkunalauta
+s0hk1valo
+villanyf6ny
+ovenkahva
+kilincs, ajt3kilincs
+kahva
+markolat, ny6l
+muurahainen
+hangya
+omena
+alma
+p00ryn0
+k1rte
+saippua
+szappan
+laulu
+dal, 6nek
+tavarajuna
+tehervonat
+tavara
+7ru
+makuupussi
+h7l3zs7k
+pussi
+szatyor, zs7k
+kadehtia
+irigyel
+kateus
+irigys6g
+kynnysmatto, ovimatto
+l7bt1rl4
+henkil1
+szem6ly
+kortti
+k7rtya
+henkil1kortti, henkil1todistus
+szem6lyi igazolv7ny
+kynnys
+k2sz1b
+viisas, tiet0j0
+b1lcs
+homok
+hiekka
+loukku
+csapda
+hiirenloukku
+eg6rfog3
+rotta
+patk7ny
+vintti, ullakko
+padl7s
+tiili
+t6gla
+suorakulmio
+t6glalap
+kuvio
+7bra, minta
+kuva
+k6p, fot3
+elokuva
+film, mozifilm
+elokuvat, elokuvateatteri
+mozi
+eloisa
+eleven, 6l6nk
+aste
+fok, fokozat
+l0mp1mittari
+h4m6r4
+mitta
+m6r43ra
