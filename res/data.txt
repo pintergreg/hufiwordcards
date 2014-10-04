@@ -662,7 +662,7 @@ rikas
 gazdag
 poika
 fi5
-tytt1
+tytt1, tyt0r
 l7ny
 hame
 szoknya
@@ -1090,3 +1090,171 @@ l0mp1mittari
 h4m6r4
 mitta
 m6r43ra
+vihata
+gy8l1l
+huuli
+ajak
+harppu
+h7rfa
+huuliharppu
+sz7jharmonika
+haamu
+lid6rc, szellem
+painajainen
+r6m7lom, lid6rcnyom7s
+aavekaupunki
+k9s6rtetv7ros
+aavemainen
+k9s6rteties
+aavikko
+sivatag
+kuiva
+sz7raz, kisz7radt
+aavistus
+meg6rz6s, sejtelem
+kuppi
+cs6sze
+kapea
+sz8k, keskeny
+veturi
+mozdony
+kupari
+r6z
+upea, hulppea
+b7mulatos, k7pr7zatos
+rakentaa
+k6sz9t
+matkapuhelin
+mobiltelefon, mobil
+yritys
+er4fesz9t6s, igyekezet
+verkko
+h7l3zat, h7l3
+myytti
+m9tosz, rege
+tori
+t6r, k1zt6r
+ulkomaat
+k2lf1ld
+kotimaa
+belf1ld
+hymni
+himnusz
+siunata
+meg7ld
+julama
+isten
+runsaasti
+b4s6g
+kamppailla
+k2zd, harcol
+vihollinen
+ellens6g
+muurari
+k4m8ves
+s00li0
+sz7n [i]
+k00pi1
+t1rpe
+kohti
+fel6
+vika, syy
+hiba
+kerta, tilaisuus
+alkalom
+tilata
+el4fizet, rendel
+liikunta
+edz6s
+urheilija
+sportol3
+urheilulaji, kilpailulaji
+sport
+kilpailu
+verseny
+kilpailija
+riv7lis, vet6lyt7rs
+kilpailla
+rivlaiz7l, verseng
+hakusana
+c9msz3
+kiinni, suljettu
+z7rva, z7rt
+puolue
+p7rt
+liitto
+sz1vets6g
+rauta
+vas
+ter0s
+ac6l
+ohjelma
+program, m8sor
+etsi0
+kutat, keres
+lataus
+let1lt6s
+ladata
+let1lt
+noita
+boszork7ny
+nide
+k1tet
+vet00
+h5z
+ty1nt00
+tol, l1k
+varattu
+foglalt
+saukko
+vidra
+majava
+h3d
+suihku
+zuhanyz7s
+k0yd0 suihkussa
+zuhanyozik
+suihkuhuone
+zuhanyoz3
+tutkija
+tud3s
+hikoilla, hiota
+izzad
+hiki
+izzads7g
+hikinen
+izzadt
+k00nn1s
+ford9t7s
+pullo
+palack, 2veg
+leili, vesipullo
+kulacs, csajka
+oksa
+7g
+asiakirja
+oklev6l, okitat
+jossa
+(a)hol, honnan
+rekka
+teheraut3, kamion
+pieni
+kicsi, kis
+viimeinen
+utols3
+totuus
+igazs7g
+reilu
+igazs7gos
+ajatus
+1tlet, gondolat
+valmistella
+el4k6sz9t, elk6sz9t
+n0enn0inen
+l7tsz3lagos
+viini
+bor
+painaa
+nyom, nyomtat
+lihaksikas
+izmos

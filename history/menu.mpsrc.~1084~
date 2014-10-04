@@ -3,12 +3,12 @@ type
  txt=array[1..5] of string;
  cod=array[1..5] of integer;
 
-const WORDS=630;
+const WORDS=546;
       VER='v3.0';
       LANG1='Fi';
       LANG2='Hu';
       BATCH=42;//84
-      BATCHES=15;
+      BATCHES=13;
 
 var i, n, score, position, lastposition, selected, corq, selectedBatch, selectedCard, startCard, endCard: integer;
     finish, fibase, opened, langSwitch, randomCards: boolean;

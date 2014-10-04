@@ -3,12 +3,12 @@ type
  txt=array[1..5] of string;
  cod=array[1..5] of integer;
 
-const WORDS=630;
-      VER='v3.0';
+const WORDS=546;
+      VER='v2.4';
       LANG1='Fi';
       LANG2='Hu';
       BATCH=42;//84
-      BATCHES=15;
+      BATCHES=13;
 
 var i, n, score, position, lastposition, selected, corq, selectedBatch, selectedCard, startCard, endCard: integer;
     finish, fibase, opened, langSwitch, randomCards: boolean;
@@ -18,7 +18,6 @@ var i, n, score, position, lastposition, selected, corq, selectedBatch, selected
     asked: array [1..40] of integer;
     fi,hu: array [1..words] of string;
     mixedBatchWords: array [1..BATCH] of integer;
-    rc: array [1..BATCH] of integer;
 
 function encodetext(w:string):string;
 {1 - ö - 246,-10 ,65526, 25088
@@ -179,30 +178,6 @@ begin
 end;
 end;
 
-function inArray(n:integer):boolean;
-  var r:boolean;w:integer;
-begin
-  r:=false;
-  for w:=1 to BATCH do
-  begin
-    if n=rc[w] then begin r:=true;break;end;
-  end;
-  inArray:=r;
-end;
-
-procedure generateRandomCards();
-var v,w:integer;
-begin
-  w:=0;
-  for v:=1 to BATCH do
-  begin
-    repeat
-      w:=random(WORDS)+1;
-    until not inArray(w);
-    rc[v]:=w;
-  end;
-end;
-
 procedure drawCards(l1:string;l2:string);
 var rig,p,cardWidth,cardHeight:integer;
     t,u:string;
@@ -325,7 +300,7 @@ begin
 
   top:=top+3;
   {up arrow}
-  if selectedBatch>=0 then setColor(255, 255, 0) else setColor(128, 128, 0);
+  if selectedBatch>0 then setColor(255, 255, 0) else setColor(128, 128, 0);
   drawLine(getWidth/2,top,getWidth/2-8,top+4);
   drawLine(getWidth/2,top,getWidth/2+8,top+4);
 
@@ -341,7 +316,7 @@ begin
 
   if selectedBatch=-1 then
   begin
-    drawText(encodeText('V6letlen k7rty7k'), (getWidth - getStringWidth("Veletlen kartyak"))/2, top-32);
+    drawText("???", (getWidth - getStringWidth("???")/2, top-32);
   end
   else
   begin
@@ -445,19 +420,11 @@ if position=100 then
 
 if position=101 then
   begin
-    if selectedBatch=-1 then
-    begin
-      y:=rc[selectedCard];
-      drawCards(encodeText(fi[y]),encodeText(hu[y]));
-    end
-    else
-    begin
     if randomCards then y:=mixedBatchWords[((selectedCard-1) mod BATCH)+1] else y:=selectedCard;
     if langswitch then
       drawCards(encodeText(fi[y]),encodeText(hu[y]))
     else
       drawCards(encodeText(hu[y]),encodeText(fi[y]));
-    end;
   end;
 
 end;
@@ -495,7 +462,7 @@ begin
   lastPosition:=0;
   langSwitch:=true; //first language is selected
   opened:=false;    //card 2nd language not to be shown
-  selectedBatch:=-1;
+  selectedBatch:=0;
   selectedCard:=1;
   randomCards:=true;
 
@@ -596,23 +563,16 @@ begin
   begin
     if ((getKeyPressed = KE_KEY4) or (keyToAction(getKeyPressed) = GA_LEFT )) then langSwitch:=true;
     if ((getKeyPressed = KE_KEY6) or (keyToAction(getKeyPressed) = GA_RIGHT)) then langSwitch:=false;
-    if ((getKeyPressed = KE_KEY2) or (keyToAction(getKeyPressed) = GA_UP  )) and (selectedBatch>=0) then selectedBatch:=selectedBatch-1;
+    if ((getKeyPressed = KE_KEY2) or (keyToAction(getKeyPressed) = GA_UP  )) and (selectedBatch>0) then selectedBatch:=selectedBatch-1;
     if ((getKeyPressed = KE_KEY8) or (keyToAction(getKeyPressed) = GA_DOWN)) and (selectedBatch<BATCHES-1) then selectedBatch:=selectedBatch+1;
     if ((getKeyPressed = KE_KEY5) or (keyToAction(getKeyPressed) = GA_FIRE)) and (position=lastPosition) then
     begin
       lastPosition:=100;
       position:=101;
-      if selectedBatch=-1 then
-      begin
-        generateRandomCards;
-        selectedCard:=1;
-      end else begin
-        selectedCard:=(selectedBatch*BATCH)+1;
-      end;
+      selectedCard:=(selectedBatch*BATCH)+1;
       startCard:=selectedCard;
       endCard:=startCard+BATCH-1;
       if randomCards then generateRandomCardOrder(startCard);
-      
     end;
     {without this, coming from menu with key 5 or fire program jumped directly to the card sreen without the card option screen. this forces to wait another key5/fire}
     if ((getKeyPressed = KE_KEY5 ) or (keyToAction(getKeyPressed) = GA_FIRE)) and (position<>lastPosition) then lastPosition:=position;

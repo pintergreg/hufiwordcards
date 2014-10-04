@@ -9,6 +9,16 @@ This project is written in MidletPascal (3.5) to JavaME (MIDP 2.0)
 
 The source code is relatively poorly commented, but comments and naming is in English, though the application interface is in Hungarian (no internationalization is planned)
 
+Screenshots
+===========
+
+![Main menu](md/main_menu.png "Main menu")
+![Card options screen](md/card_option_screen.png "Card options screen")
+![Card screen](md/card_screen.png "Card screen")
+![Test screen](md/test.png "Test screen")
+![Correct answer](md/correnct.png "Correct answer")
+![Wrong answer](md/wrong.png "Wrong answer")
+![About screen](md/about.png "About screen")
 
 Database
 ========
@@ -77,6 +87,13 @@ Version has a X.Y.Z format and changesd according to the following rules:
 
 Changes
 =======
+
+### 3.0
+* new feature: using 'random batch' is now added
+* added another 84 words (now 630 words in db)
+
+### 2.4
+* added another 42 words (now 546 words in db)
 
 ### 2.3
 * added another 42 words (now 504 words in db)

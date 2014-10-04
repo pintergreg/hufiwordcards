@@ -3,12 +3,12 @@ type
  txt=array[1..5] of string;
  cod=array[1..5] of integer;
 
-const WORDS=630;
-      VER='v3.0';
+const WORDS=546;
+      VER='v2.4';
       LANG1='Fi';
       LANG2='Hu';
       BATCH=42;//84
-      BATCHES=15;
+      BATCHES=13;
 
 var i, n, score, position, lastposition, selected, corq, selectedBatch, selectedCard, startCard, endCard: integer;
     finish, fibase, opened, langSwitch, randomCards: boolean;
@@ -191,15 +191,17 @@ begin
 end;
 
 procedure generateRandomCards();
-var v,w:integer;
+var u,v,w:integer;
 begin
   w:=0;
+  u:=0;
   for v:=1 to BATCH do
   begin
-    repeat
-      w:=random(WORDS)+1;
-    until not inArray(w);
-    rc[v]:=w;
+    //repeat
+      //w:=random(WORDS)+1;
+      rc[v]:=v;
+    //until not inArray(w);
+    //rc[u]:=w;
   end;
 end;
 
