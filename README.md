@@ -16,7 +16,7 @@ Screenshots
 ![Card options screen](md/card_option_screen.png "Card options screen")
 ![Card screen](md/card_screen.png "Card screen")
 ![Test screen](md/test.png "Test screen")
-![Correct answer](md/corrent.png "Correct answer")
+![Correct answer](md/correct.png "Correct answer")
 ![Wrong answer](md/wrong.png "Wrong answer")
 ![About screen](md/about.png "About screen")
 
