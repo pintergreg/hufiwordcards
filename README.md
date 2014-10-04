@@ -12,12 +12,12 @@ The source code is relatively poorly commented, but comments and naming is in En
 Screenshots
 ===========
 
-![Main menu](md/main_menu.png "Main menu")
-![Card options screen](md/card_option_screen.png "Card options screen")
-![Card screen](md/card_screen.png "Card screen")
-![Test screen](md/test.png "Test screen")
-![Correct answer](md/correct.png "Correct answer")
-![Wrong answer](md/wrong.png "Wrong answer")
+![Main menu](md/main_menu.png "Main menu") 
+![Card options screen](md/card_option_screen.png "Card options screen") 
+![Card screen](md/card_screen.png "Card screen") 
+![Test screen](md/test.png "Test screen") 
+![Correct answer](md/correct.png "Correct answer") 
+![Wrong answer](md/wrong.png "Wrong answer") 
 ![About screen](md/about.png "About screen")
 
 Database
