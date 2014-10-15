@@ -448,11 +448,7 @@ if position=101 then
     if selectedBatch=-1 then
     begin
       y:=rc[selectedCard];
-      //drawCards(encodeText(fi[y]),encodeText(hu[y]));
-      if langswitch then
-        drawCards(encodeText(fi[y]),encodeText(hu[y]))
-      else
-        drawCards(encodeText(hu[y]),encodeText(fi[y]));
+      drawCards(encodeText(fi[y]),encodeText(hu[y]));
     end
     else
     begin

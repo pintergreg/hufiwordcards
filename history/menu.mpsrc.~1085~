@@ -4,7 +4,7 @@ type
  cod=array[1..5] of integer;
 
 const WORDS=630;
-      VER='v3.0.1';
+      VER='v3.0';
       LANG1='Fi';
       LANG2='Hu';
       BATCH=42;//84
@@ -448,11 +448,7 @@ if position=101 then
     if selectedBatch=-1 then
     begin
       y:=rc[selectedCard];
-      //drawCards(encodeText(fi[y]),encodeText(hu[y]));
-      if langswitch then
-        drawCards(encodeText(fi[y]),encodeText(hu[y]))
-      else
-        drawCards(encodeText(hu[y]),encodeText(fi[y]));
+      drawCards(encodeText(fi[y]),encodeText(hu[y]));
     end
     else
     begin
@@ -604,7 +600,6 @@ begin
     if ((getKeyPressed = KE_KEY8) or (keyToAction(getKeyPressed) = GA_DOWN)) and (selectedBatch<BATCHES-1) then selectedBatch:=selectedBatch+1;
     if ((getKeyPressed = KE_KEY5) or (keyToAction(getKeyPressed) = GA_FIRE)) and (position=lastPosition) then
     begin
-      opened:=false;
       lastPosition:=100;
       position:=101;
       if selectedBatch=-1 then

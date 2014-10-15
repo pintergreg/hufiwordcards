@@ -88,6 +88,10 @@ Version has a X.Y.Z format and changesd according to the following rules:
 Changes
 =======
 
+### 3.0.1
+* bugfix: card stays opened if the last ended with opened state
+* bugfix: base language selection is not working with random batch option
+
 ### 3.0
 * new feature: using 'random batch' is now added
 * added another 84 words (now 630 words in db)

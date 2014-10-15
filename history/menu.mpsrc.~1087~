@@ -453,6 +453,7 @@ if position=101 then
         drawCards(encodeText(fi[y]),encodeText(hu[y]))
       else
         drawCards(encodeText(hu[y]),encodeText(fi[y]));
+    end;
     end
     else
     begin

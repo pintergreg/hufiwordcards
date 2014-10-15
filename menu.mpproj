@@ -1,5 +1,5 @@
 <Project>
-	<MIDlet Name="HuFi Kikerdezo" Vendor="Pinter Gergo [MIDletPascal3]" Version="3.0" Icon="/icon.png"/>
+	<MIDlet Name="HuFi Kikerdezo" Vendor="Pinter Gergo [MIDletPascal3]" Version="3.0.1" Icon="/icon.png"/>
 	<Sources>
 		<source filename="menu.mpsrc"/>
 	</Sources>
