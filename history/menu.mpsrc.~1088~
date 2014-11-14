@@ -5,8 +5,8 @@ type
 
 const WORDS=630;
       VER='v3.0.1';
-//      LANG1='Fi';
-//      LANG2='Hu';
+      LANG1='Fi';
+      LANG2='Hu';
       BATCH=42;//84
       BATCHES=15;
 
@@ -19,7 +19,6 @@ var i, n, score, position, lastposition, selected, corq, selectedBatch, selected
     fi,hu: array [1..words] of string;
     mixedBatchWords: array [1..BATCH] of integer;
     rc: array [1..BATCH] of integer;
-    lang1,lang2: string;
 
 function encodetext(w:string):string;
 {1 - ö - 246,-10 ,65526, 25088
@@ -106,9 +105,7 @@ ch:=1;
 res := openResource('/data.txt');
 if (resourceAvailable(res)) then
 begin
-  lang1:=readLine(res);
-  lang2:=readLine(res);
- for n:=3 to o do
+ for n:=1 to o do
  begin
   if ((n mod 2)=1) then
    begin
