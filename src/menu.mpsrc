@@ -3,14 +3,11 @@ type
  txt=array[1..5] of string;
  cod=array[1..5] of integer;
 
-const WORDS=630;
-      VER='v3.0.1';
-//      LANG1='Fi';
-//      LANG2='Hu';
-      BATCH=42;//84
-      BATCHES=15;
+const VER='v3.1';
+      WORDS=84; BATCH=42;
+      TITLE='HuSv Kik6rdez4';
 
-var i, n, score, position, lastposition, selected, corq, selectedBatch, selectedCard, startCard, endCard: integer;
+var i, n, score, position, lastposition, selected, corq, selectedBatch, selectedCard, startCard, endCard, batches: integer;
     finish, fibase, opened, langSwitch, randomCards: boolean;
     correct: string;
     scrtxt: array [1..5] of string;
@@ -31,7 +28,8 @@ function encodetext(w:string):string;
  7 - á - 225,-31 ,65505,
  8 - ű - 251,-5  ,65531,
  9 - í - 237,-19 ,65517,
- 0 - ä - 228,-28 ,65508,}
+ 0 - ä - 228,-28 ,65508,
+ + - å - ???}
 var i:integer;
 begin
  for i:=0 to length(w) do
@@ -46,6 +44,7 @@ begin
   if (getChar(w,i)='8') then w:=setChar(w,chr(251),i);
   if (getChar(w,i)='9') then w:=setChar(w,chr(237),i);
   if (getChar(w,i)='0') then w:=setChar(w,chr(228),i);
+  if (getChar(w,i)='+') then w:=setChar(w,chr(229),i);
  end;
  encodeText:=w;
 end;
@@ -108,6 +107,9 @@ if (resourceAvailable(res)) then
 begin
   lang1:=readLine(res);
   lang2:=readLine(res);
+  //words:=stringtointeger(readLine(res));
+  //batch:=stringtointeger(readLine(res));
+  batches:=words/batch;
  for n:=3 to o do
  begin
   if ((n mod 2)=1) then
@@ -400,8 +402,8 @@ if position=50 then
     setColor(255, 255, 0);
     drawText(encodeText('N6vjegy'), (getWidth - getStringWidth('Nevjegy'))/2, y);
     y:=y+24+getStringHeight('Nevjegy');
-    drawText(encodeText('HuFi Kik6rdez4'), (getWidth - getStringWidth('HuFi Kikerdezo'))/2, y);
-    y:=y+6+getStringHeight('HuFi');
+    drawText(encodeText(TITLE), (getWidth - getStringWidth(TITLE))/2, y);
+    y:=y+6+getStringHeight(TITLE);
     drawText(VER, (getWidth - getStringWidth(VER))/2, y);
     y:=y+3+getStringHeight(VER);
     drawText(encodeText('Pint6r Gerg4'), (getWidth - getStringWidth('Pinter Gergo'))/2, y);

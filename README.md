@@ -1,7 +1,7 @@
 hufiwordcards
 =============
 
-Hungarian - Finnish word learning application for j2me (hobby project)
+Hungarian - Finnish (Swedish) word learning application for j2me (hobby project)
 
 **available under MIT licence**
 
@@ -37,8 +37,8 @@ There can be max. 2 expressions in a row with a meaning, separated by a comma an
 ## Character coding
 
 I found that MidletPascal 3.x has problems with charachter encoding, so I was unable to display Hungarian (and Finnsh) accents if I write them into the source code.
-But I managed to determine that if I use chr() function with proper values I can force the compilet to display them. So, I wrote a not too nice function to solve my problem with replacements.
-The drawback of this method is its uglyness: I have to store words in database without accents, so I store them with numbers instead. The following table shows my 'solution'.
+But I managed to determine that if I use chr() function with proper values I can force the compiler to display them. So, I wrote a not too nice function to solve my problem with replacements.
+The drawback of this method is its uglyness: I have to store words in database without accents, so I store them with numbers instead. The following table shows my workaround.
 
 |character|code in db|value to replace|
 |:-------:|:--------:|:--------------:|
@@ -52,6 +52,7 @@ The drawback of this method is its uglyness: I have to store words in database w
 |ű        |8         |251             |
 |í        |9         |237             |
 |ä        |0         |228             |
+|å        |+         |229             |
 
 Fortunately, I need ten characters (I don't need capitals), and my function:
 
@@ -70,6 +71,7 @@ begin
     if (getChar(w,i)='8') then w:=setChar(w,chr(251),i);
     if (getChar(w,i)='9') then w:=setChar(w,chr(237),i);
     if (getChar(w,i)='0') then w:=setChar(w,chr(228),i);
+    if (getChar(w,i)='+') then w:=setChar(w,chr(229),i);
   end;
   encodeText:=w;
 end;
@@ -87,6 +89,10 @@ Version has a X.Y.Z format and changesd according to the following rules:
 
 Changes
 =======
+
+### 3.1
+* change: it happened that currently I am learning Swedish, so I recomipled it with a Swedish dictionary
+* new feature: the character å is supported now
 
 ### 3.0.1
 * bugfix: card stays opened if the last ended with opened state

@@ -1,1262 +1,218 @@
-fi
+sv
 hu
-v0h0n
-kev6s
-asunto, huoneisto
-lak7s
-hinta
-7r
-kaikki
-mind
-marraskuu
-november
-huhtikuu
-7prilis
-vapaa
-szabad
-yliopisto
-egyetem
-sanoa
-mond
-elokuu
-augusztus
-mies
+en man
 f6rfi
-nopea
-gyors
-hidas
-lass5
-joulukuu
-december
-juusto
-sajt
-kuukausi
-h3nap
-rakas
-kedves
-mets0
-erd4
-toukukuu
-m7jus
-helmikuu
-febru7r
-jo
-m7r
-joki
-foly3
-katu
-utca
-j0rkev0
-okos
-jos
-ha
-jouda
-iszik
-uida
-5szik
-pit00
-tetszik
-koira
-kutya
-j0rvi
-t3
-helppo
-k1nny8
-k0vell0
-s6t7l
-aina
-mindig
-el00
-6l
-luonto
-term6szet
-kivi
-k4
-perhe
-csal7d
-puhdas
-tiszta
-matka
-utaz7s
-l0nsi
-nyugat
-sanakirja
-sz3t7r
-tietysti
-term6szetesen
-kes0kuu
-j5nius
-kaunis
-sz6p
-nainen
+en kvinna
 n4
-haluta
-k9v7n, akar
-sy1d0
-eszik
-ruma
-cs5nya
-korkea
-magas
-t0ysikuu
-telihold
-terve
-eg6szs6ges
-vaalea
-vil7gos
-it0
-kelet
-varmasti
-biztosan
-etel0
-d6l [6gt7j]
-0iti
-anya
-hein0kuu
-j5lius
-is0
-apa
-maksaa
-fizet, vmibe ker2l
-l0mmin
-meleg
-kylm0
-hideg
-huono
-rossz
-lokakuu
-okt3ber
-syyskuu
-szeptember
-hiiri
-eg6r
-maaliskuu
-m7rcius
-esimerkiksi
-p6ld7ul
-yst0v0
-bar7t
-p1yt0
-asztal
-harva
-ritka
-istua
-2l
-vihre0
-z1ld
-tammiku
-janu7r
-koti
-otthon
-lapsi
-gyerek
-sininen
-k6k
-yht0
-ugyan5gy
-harmaa
-sz2rke
-lumi
-h3
-asua
-lakik
-lyhyt
-r1vid
-siksi
-ez6rt
-ikkuna
-ablak
-joskus
-n6ha
-takki
-kab7t
-salama
-vill7m
-pilvi
-felh4
-kilpi
-pajzs
-siipi
-sz7rny
-pusero
-pul3ver
-saari
-sziget
-ruskea
-barna
-liila
-lila
-seisoa
-7ll [i]
-juosta
-fut
-opiskella, oppia
-tanul
-el0intarha
-7llatkert
-voittaa
-gy4z, nyer
-ovi
-ajt3
-kettu
-r3ka
-ilma
-leveg4
-oikea
-jobb
-sepp0
-kov7cs
-nukkua
-alszik
-kirjoittaa
-9r
-kuulla
-hall
-hy1k0t0
-t7mad
-tuoli
-sz6k
-kissa
-macska
-auringolasku
-naplemente
-lohik00rme
-s7rk7ny
-valkoinen
-feh6r
-vasen
-bal
-oranssi
-narancss7rga
-meri
-tenger
-keltainen
-s7rga
-taistelu
-harc
-00ni
-hang
-vaan
-hanem
-t0rke0
-fontos
-puhua
-besz6l
-housut
-nadr7g
-miekka
-kard
-hevonen
-l3
-luulla
-gondol
-punainen
-piros
-viikset
-bajusz
-lakki
-sapka
-muuri, sein0
-fal
-lasi
-2veg, poh7r
-lyijykyn0
-ceruza
-lautanen
-t7ny6r
-puukko, veitsi
-k6s
-haarukka
-villa
-lusikka
-kan7l
-lattia
-padl3
-parta
-szak7ll
-matto, ryijy
-sz4nyeg
-nen0
-orr
-k0sivarsi
-kar
-paita
-ing
-jalka
-l7b
-sormi
-ujj
-polvi
-t6rd
-savupiippu
-k6m6ny
-vatsa
-has
-lahja
-aj7nd6k
-korva
-f2l
-selk0
-h7t
-kyyn0rp00
-k1ny1k
-ranne
-csukl3
-kerros
-emelet
-hammas
-fog [fn]
-portaikko
-l6pcs4
-reppu
-h7tizs7k
-tukka
-haj
-laukku
-t7ska
-olkap00
-v7ll
-sumu
-k1d
-silta
-h9d
-varjo
-7rny6k
-juna
-vonat
-sakset
-oll3
-sade
-es4
-katto
-tet4
-taivas
-6gbolt
-kaula
-nyak
-huivi
-s7l
-maito
-tej
-katsoa
-n6z
-keitt00
-f4z
-keskiy1
-6jf6l
-kyl0
-falu
-lent00
-rep2l
-lukea
-olvas
-sulaa
-olvad
-talo
-h7z
-silm0
-szem
-p00
-fej
-voi
-vaj
-syd0n
-sz9v [fn]
-p00t1s
-elhat7roz7s
-eteinen
-el4szoba
-vieras
-vend6g
-tyhj0
-2res
-kes0
-ny7r
-viikonloppu
-h6tv6ge
-kauppa
-2zlet
-l1yt00
-tal7l
-turvallinen
-biztons7gos
-kirkko
-templom
-suuri, iso
-nagy
-kaupunki
-v7ros
-keitti1
-konyha
-veri
-v6r
-makuuhuone
-h7l3szoba
-uusi
-5j
-erilainen
-k2l1nb1z4
-tuuli
-sz6l
-suu
-sz7j
-syksy
-4sz
-talvi
-t6l
-turhaan
-hi7ba
-el0in
-7llat
-ostos
-v7s7rl7s
-olohuone
-nappali
-rakastaa
-szeret
-tuli
-t8z
-uni
-7lom
-vied0
-visz
-tavata
-tal7lkozik
-vaate
-ruha
-toinen
-m7sik
-kasvi
-n1v6ny
-synty0
-sz2letik
-kev0t
-tavasz
-kallis
-dr7ga
-rauha
-b6ke
-usein
-gyakran
-n0hd0
-l7t
-kiusata
-bosszant
-tehd0
-csin7l, tesz
-alkaa
-kezd4dik
-kauan
-sok7ig
-huone
-szoba
-tuoda
-hoz
-tietokone
-sz7m9t3g6p
-huonekalu
-b5tor
-nimi
-n6v
-tavallisesti
-7ltal7ban
-viel0
-m6g
-hetkinen
-pillanat
-odottaa
-v7r [i]
-ostaa
-v7s7rol
-my1h0sty0
-elk6sik
-s0nky
-7gy
-kenk0
-cip4
-pian
-mindj7rt
-antaa
-ad
-koulu
-iskola
-kukka
-vir7g
-paistaa
-s2t
-aurinko
-nap [6gitest]
-p0iv0
-nap
-ihminen
-ember
-paljon
-sok
-myrkky
-m6reg
-mielell00n
-sz9vesen
-pohjoinen
-6szak
-etsi0
-keres
-ruoka
-6tel
-tulla
-j1n
-panna
-rak
-kest00
-tart
-l0hett00
-k2ld
-pyyhe
-t1r2lk1z4
-menn0 rikki
-t1nkre megy
-mainos
-rekl7m
-sairas
-beteg [mn]
-vaikka
-b7r, hab7r
-taide
-m8v6szet
-keskip0iv0
-d6l [id4]
-sota
-h7bor5
-s0nki
-borosta
-tasku
-zseb
-utelias
-k9v7ncsi
-jorata, tanssia
-t7ncol
-kalenteri
-napt7r
-hylly
-polc
-astia
-ed6ny
-vetolaatikko
-fi3k
-pitk0
-hossz5
-suora
-egyenes
-laiva
-haj3
-lintu
-mad7r
-luu
-csont
-rehellinen
-4szinte
-halpa
-olcs3
-yhteinen
-k1z1s
-syv0
-m6ly
-lihava
-k1v6r
-hoikka
-sov7ny, v6kony
-menneisyys
-m5lt
-nykyisyys
-jelen
-tulevaisuus
-j1v4
-v0kev0
-er4s
-heikko
-gyenge, er4tlen
-makea
-6des
-kitker0
-keser8, fanyar
-hapan
-savany5
-suolainen
-s3s
-maku
-9z
-v0ri
-sz9n
-kyynel
-k1nny
-kuuma
-forr3
-julma
-kegyetlen
-kuollut
-halott
-likainen
-piszkos
-vuosi
-6v
-viikko
-h6t [id4]
-eilinen, eilisp0iv0
-tegnap
-huominen
-holnap
-t0n00n
-ma
-l0hes, melkein
-majdnem
-vain
-csak
-kovin, hyvin
-nagyon
-pyyt00
-k6r
-kulta
-arany
-hopea
-ez2st
-pel0t0
-f6l, tart valamit4l
-pelko
-f6lelem
-mielipide
-v6lem6ny
-tasapaino
-egyens5ly
-nyt
-most
-00net1n
-cs1ndes
-hiljainen
-halk
-00nek0s
-hangos
-kysymys
-k6rd6s
-kysy0
-k6rdez
-vastaus
-v7lasz
-vastata
-v7laszol
-itke0
-s9r [i]
-hauta
-s9r, s9rhely
-iloinen
-vid7m
-surullinen
-szomor5
-naimisissa
-h7zas
-avioliitto
-h7zass7g
-aviomies
-f6rj
-vaimo
-feles6g
-k1yh0
-szeg6ny
-rikas
-gazdag
-poika
-fi5
-tytt1, tyt0r
+en flicka
 l7ny
-hame
-szoknya
-lukuj0rjestys
-3rarend
-kuolla
-meghal
-haaveri, onnettomuus
-baleset
-laina
-k1lcs1n
-velka
-ad3ss7g
-ep0ily
-k6ts6g
-ep0ill0
-k6telkedik
-kunnia
-becs2let
-kunniallinen
-becs2letes
-s00dyllisyys
-tisztess6g
-s00dyllinen
-tisztess6ges
-ymm0rt0v0inen
-6rtelmes, intelligens
-kohtelias
-udvarias
-kosiskella
-udvarol
-piha
-udvar
-puutarha
-kert
-ruoho
-f8
-y1
-6jszaka
-uninen
-7lmos
-tyyny
-p7rna
-savu
-f2st
-vuori
-hegy
-m0ki
-domb
-reisi
-comb
-pakara
-fen6k
-pohjaton
-feneketlen
-mittaamaton
-m6rhetetlen
-kaivo
-k5t
-raha
-p6nz
-lompakko
-p6nzt7rca
-liha
-h5s
-n0lk0inen
-6hes
-janoinen
-szomjas
-v0synyt
-f7radt
-palella, paleltaa
-f7zik
-kylpe0
-f2rdik
-kylpyhuone
-f2rd4szoba
-kylpyamme
-f2rd4k7d
-hammasharja
-fogkefe
-hammastahna
-fogkr6m
-hedelm0
-gy2m1lcs
-vihannes
-z1lds6g
-tori, kauppatori
-piac
-pusu, suukko
-cs3k
-kuola, kuolata
-ny7l
-makuas
-9zletes
-maistua
-9zlik
-sukka
-zokni
-tie
-5t
-jalkak0yt0v0 
-j7rda
-onnellinen
-boldog
-raitiovaunu
-villamos
-bussi
-busz
-lentokone
-rep2l4, rep2l4g6p
-kone
-g6p
-karhu
-medve
-susi
-farkas
-tiskata
-mosogat
-pest0
-mos
-siivota
-takar9t
-silm0lasit
-szem2veg
-kasvot
-arc
-hymy
-mosoly
-hymyill0, myh0ill0
-mosolyog
-kartta
-t6rk6p
-nuori
-fiatal
-valo
-f6ny
-maata
-fekszik
-huomata
-6szrevesz
-l00k0ri, tohtori
-orvos, doktor
-sairaala
-k3rh7z
-insin11ri, inssi
-m6rn1k
-sateenvarjo
-eserny4
-puhelin
-telefon
-pensas
-bokor
-ilta
-este
-aamu
-d6lel4tt
-iltap0iv0
-d6lut7n
-musta
-fekete
-maanantai
-h6tf4
-tiistai
-kedd
-keskiviiko
-szerda
-torstai
-cs2t1rt1k
-perjantai
-p6ntek
-lauantai
-szombat
-sunnuntai
-vas7rnap
-peili
-t2k1r
-sokeri
-cukor
-suola
-s3
-kala
-hal
-keitto
-leves
-keittokirja
-szak7csk1nyv
-aamiainen
-reggeli
-lounas
-eb6d
-illallinen
-vacsora
-kynttil0
-gyertya
-valtameri
-3ce7n
-lentokentt0
-rep2l4t6r
-rakennus
-6p2let
-hissi
-felvon3, lift
-tehdas
-gy7r
-vasara
-kalap7cs
-kirves
-balta, fejsze
-naapuri
-szomsz6d
-kyn0
-toll
-lahja
-aj7nd6k
-kieli
-nyelv
-kirjasto
-k1nyvt7r
-kolmio
-h7romsz1g
-neli1
-n6gyzet, n6gysz1g
-ympyr0
-k1r
-runo
-vers
-lippu
-z7szl3
-auringonpaiste
-naps2t6s
-yksiselitteinen
-egy6rtelm8
-roskat, j0tteet
-szem6t, hullad6k
-roskas0ili1, j0teastia
-szemetes, kuka
-ty1
-munka
-ty1maa
-munkahely
-yksinainen
-mag7nyos
-yksin
-egyed2l
-yhdess0
-egy2tt
-kunnostaa
-megjav9t
-haaveilla
-mereng, 7lmodozik
-ikin0
-soha, b7rmikor
-ihana
-csod7latos
-taikuus
-var7zslat, m7gia
-yski0
-k1h1g
-melko
-meglehet4sen
-opettaja
-tan7r, oktat3
-opiskelija
-tanul3
-yli
-ut7n
-asukas
-lak3, lakos
-ilma
-leveg4
-maa
-orsz7g
-pakkaus
-l7da, csomag
-sata
-sz7z
-sataa lunta
-havazik
-asia
-dolog, 2gy
-alla
-alatt
-virallinen
-hivatalos, form7lis
-ennen
-el4tt
-osa
-r6sz, darab
-itsen0inen
-f2ggetlen
-nykyinen
-jelenlegi, aktu7lis
-ensiksi
-el4sz1r, kezdetben
-00nt0minen
-kiejt6s
-sitten
-majd, azut7n
-h1lm1
-buta, h2lye
-kana
-ty5k
-kauhu
-borzalom, rettenet
-tieto
-ismeret, tud7s
-taito, tiede
-tudom7ny
-s00
-id4j7r7s
-kulma
-sarok
-huutaa
-kiab7l, ki7lt
-tulli
-v7m
-taakka
-rakom7ny, teher
-takka
-t8zhely, kandall3
-uskoa
-hisz
-usko
-hit, vall7s
-valitettavasti
-sajnos
-puhelinnumero
-telefonsz7m
-s0hk1posti
-e-mail
-s0hk1
-villamoss7g, elektromoss7g
-osoite
-c9m
-palaa
-6g, meg6g
-ateria
-6tkez6s
-heti
-s2rg4sen, azonnal
-puoli
-f6l [szn]
-vailla
-n6lk2l
-her0t0
-felkel, fel6bred
-nojatuoli, laiskanlinna
-karossz6k, fotel
-ty1p1yt0, kirjoitusp1yt0
-9r3asztal
-jalkalamppu
-7ll3l7mpa
-pyyhekumi
-rad9r
-ablakp7rk7ny
-ikkunalauta
-s0hk1valo
-villanyf6ny
-ovenkahva
-kilincs, ajt3kilincs
-kahva
-markolat, ny6l
-muurahainen
-hangya
-omena
+en pojke
+fi5
+ett 0pple
 alma
-p00ryn0
-k1rte
-saippua
-szappan
-laulu
-dal, 6nek
-tavarajuna
-tehervonat
-tavara
-7ru
-makuupussi
-h7l3zs7k
-pussi
-szatyor, zs7k
-kadehtia
-irigyel
-kateus
-irigys6g
-kynnysmatto, ovimatto
-l7bt1rl4
-henkil1
-szem6ly
-kortti
-k7rtya
-henkil1kortti, henkil1todistus
-szem6lyi igazolv7ny
-kynnys
-k2sz1b
-viisas, tiet0j0
-b1lcs
-homok
-hiekka
-loukku
-csapda
-hiirenloukku
-eg6rfog3
-rotta
-patk7ny
-vintti, ullakko
-padl7s
-tiili
-t6gla
-suorakulmio
-t6glalap
-kuvio
-7bra, minta
-kuva
-k6p, fot3
-elokuva
-film, mozifilm
-elokuvat, elokuvateatteri
-mozi
-eloisa
-eleven, 6l6nk
-aste
-fok, fokozat
-l0mp1mittari
-h4m6r4
-mitta
-m6r43ra
-vihata
-gy8l1l
-huuli
-ajak
-harppu
-h7rfa
-huuliharppu
-sz7jharmonika
-haamu
-lid6rc, szellem
-painajainen
-r6m7lom, lid6rcnyom7s
-aavekaupunki
-k9s6rtetv7ros
-aavemainen
-k9s6rteties
-aavikko
-sivatag
-kuiva
-sz7raz, kisz7radt
-aavistus
-meg6rz6s, sejtelem
-kuppi
-cs6sze
-kapea
-sz8k, keskeny
-veturi
-mozdony
-kupari
-r6z
-upea, hulppea
-b7mulatos, k7pr7zatos
-rakentaa
-k6sz9t
-matkapuhelin
-mobiltelefon, mobil
-yritys
-er4fesz9t6s, igyekezet
-verkko
-h7l3zat, h7l3
-myytti
-m9tosz, rege
-tori
-t6r, k1zt6r
-ulkomaat
-k2lf1ld
-kotimaa
-belf1ld
-hymni
-himnusz
-siunata
-meg7ld
-julama
-isten
-runsaasti
-b4s6g
-kamppailla
-k2zd, harcol
-vihollinen
-ellens6g
-muurari
-k4m8ves
-s00li0
-sz7n [i]
-k00pi1
-t1rpe
-kohti
-fel6
-vika, syy
-hiba
-kerta, tilaisuus
-alkalom
-tilata
-el4fizet, rendel
-liikunta
-edz6s
-urheilija
-sportol3
-urheilulaji, kilpailulaji
-sport
-kilpailu
-verseny
-kilpailija
-riv7lis, vet6lyt7rs
-kilpailla
-rivlaiz7l, verseng
-hakusana
-c9msz3
-kiinni, suljettu
-z7rva, z7rt
-puolue
-p7rt
-liitto
-sz1vets6g
-rauta
-vas
-ter0s
-ac6l
-ohjelma
-program, m8sor
-etsi0
-kutat, keres
-lataus
-let1lt6s
-ladata
-let1lt
-noita
-boszork7ny
-nide
-k1tet
-vet00
-h5z
-ty1nt00
-tol, l1k
-varattu
-foglalt
-saukko
-vidra
-majava
-h3d
-suihku
-zuhanyz7s
-k0yd0 suihkussa
-zuhanyozik
-suihkuhuone
-zuhanyoz3
-tutkija
-tud3s
-hikoilla, hiota
-izzad
-hiki
-izzads7g
-hikinen
-izzadt
-k00nn1s
-ford9t7s
-pullo
-palack, 2veg
-leili, vesipullo
-kulacs, csajka
-oksa
-7g
-asiakirja
-oklev6l, okitat
-jossa
-(a)hol, honnan
-rekka
-teheraut3, kamion
-pieni
-kicsi, kis
-viimeinen
-utols3
-totuus
-igazs7g
-reilu
-igazs7gos
-ajatus
-1tlet, gondolat
-valmistella
-el4k6sz9t, elk6sz9t
-n0enn0inen
-l7tsz3lagos
-viini
+och
+6s
+0ta
+eszik
+dricka
+iszik
+ett vatten
+v9z
+ett br1d
+keny6r
+l0sa
+olvas
+en tidning
+5js7g
+en sm1rg+s
+„nyitott” szendvics
+ett ris
+rizs
+ett barn
+gyerek
+en mj1lk
+tej
+en bok
+k1nyv
+en meny
+men2
+ha
+van neki
+ett brev
+lev6l
+vars+god
+parancsolj, tess6k, sz9vesen
+urs0kta
+tess6k?, eln6z6st
+sn0lla
+legyen sz9ves, k6rem
+v0lkommen
+Isten hozta!
+en natt
+este
+en morgon
+reggel
+tala
+besz6l
+svenska
+sv6d (nyelv)
+engelska
+angol (nyelv)
+ungerska
+magyar (nyelv)
+0lska
+szeret
+tycka om
+kedvel
+en fisk
+hal
+en apelsin
+narancs
+ett kaffe
+k7v6
+ett 0gg
+toj7s
+en kyckling
+csirke, csirkeh5s
+en dryck
+ital
+en middag
+eb6d, d6l
+ett vin
 bor
-painaa
-nyom, nyomtat
-lihaksikas
-izmos
+ett socker
+cukor
+en lunch
+eb6d
+en frukost
+reggeli
+en ost
+sajt
+en frukt
+gy2m1lcs
+en pasta
+t6szta
+en mat
+6tel
+ett 1l
+s1r
+ett n1tk1tt
+marhah5s
+en soppa
+leves
+en tomat
+paradicsom
+en jordgubbe
+eper
+en citron
+citrom
+en peppar
+bors
+ett salt
+s3
+en olja
+olaj
+en m+ltid
+6tkez6s
+ett te
+tea
+ett fl0skk1tt
+diszn3h5s
+en vegetarian
+vegetari7nus
+ett k1tt
+h5s
+en juice
+l6
+en tallrik
+t7ny6r
+en kopp
+cs6sze
+ett glas
+poh7r
+en kniv
+k6s
+en gaffel
+villa
+en sked
+kan7l
+en restaurang
+6tterem
+en kock
+szak7cs
+en katt
+macska
+en hund
+kutya
+en h0st
+l3
+en f+gel
+mad7r
+en bj1rn
+medve
+ett djur
+7llat
+en 0lg
+j7vorszarvas
+en anka
+kacsa
+en mus
+eg6r
+en spindel
+p3k
+en sk1ldpadda
+tekn4sb6ka
+en elefant
+lef7nt
+en krabba
+r7k
+en varg
+farkas
+en myra
+hangya
+en ren
+r6nszarvas
+en kjol
+szoknya
+en sko
+cip4
+en kl0nning
+ruha
+kl0der
+clothes
+en jack
+kab7t
+en tr1ja
+pul3ver, meleg9t4fels4
+ha p+ sig
+viselni
+en hatt
+kalap
+en byxa
+nadr7g
+en kl0der
+ruha
+en skjorta
+ing
+en kostym
+1lt1ny, koszt2m
+en strumpa
+zokni
+en slips
+nyakkend4
+en knapp
+gomb, billenty8
+en rock
+kab7t
+en ficka
+zseb
+ett sk0rp
+1v
+en handske
+keszty8
+en halsduk
+s7l
+g+
+j7rni, menni
+komma
+j1nni
