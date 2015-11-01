@@ -4,7 +4,7 @@ type
  cod=array[1..5] of integer;
 
 const VER='v3.1';
-      WORDS=84; BATCH=42;
+      WORDS=630; BATCH=42;
       TITLE='HuSv Kik6rdez4';
 
 var i, n, score, position, lastposition, selected, corq, selectedBatch, selectedCard, startCard, endCard, batches: integer;
@@ -29,7 +29,7 @@ function encodetext(w:string):string;
  8 - ű - 251,-5  ,65531,
  9 - í - 237,-19 ,65517,
  0 - ä - 228,-28 ,65508,
- + - å - ???}
+ + - å - 229}
 var i:integer;
 begin
  for i:=0 to length(w) do
