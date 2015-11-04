@@ -880,12 +880,14 @@ egentligen
 val3ban, tulajdonk6ppen
 +tminstone
 legal7bb
-0n=m6g; ~yet
+0n
+m6g, mint
 verkligen
 t6nyleg, igaz7n
-tillr0ckligt=el6g, ~enough
-0r slut=over, we are out of
-snart=soon=hamar, nem sok7ra, mindj7rt
+tillr0cklig
+el6g
+snart
+hamar, nemsok7ra
 senare
 k6s4bb
 vanligtvis
@@ -896,12 +898,10 @@ s0rskilt
 k2l1n1sen
 sent
 k6s4n
-0ntligen=finally=
 n0stan
 majdnem
 faktiskt
 tulajdonk6ppen
-i allm0nhet=generally=
 n0ra
 k1zel
 ungef0r
@@ -916,7 +916,6 @@ tydlig
 nyilv7nval3, egy6rtelm8
 definitivt
 biztosan, hat7rozottan
-m1jligtvis=possibly
 tillsammans
 egy2tt
 l+ngsamt
@@ -927,7 +926,6 @@ n1dv0ndigtvis
 sz2ks6gszer8en
 troligtvis
 val3sz9n8leg
-absolut=absolutely=
 en strand
 strand
 ett hus
@@ -965,7 +963,7 @@ en gata
 en marknad
 piac
 en torg
-t6r
+(piac)t6r
 en bio
 mozi, filmsz9nh7z
 en park
@@ -1338,3 +1336,1493 @@ ett pass
 5tlev6l
 amerikansk
 amerikai
+n+gon
+valaki
+denna, detta
+ez
+dessa
+ezek
+n+gonting
+valami
+ingenting
+semmi
+Vem som helst
+b7rki
+varandra
+egym7s
+en annan
+egy m7sik
+f1rra
+el4z4
+f1rrf1rra
+el4z4 el4tti
+ingen
+senki
+ett sj0lv
+1nval3
+ingendera
+egyik sem
+ett nummer
+sz7m
+ett telefonnummer
+telefonsz7m
+ett, en
+egy
+tv+
+kett4
+tre
+h7rom
+fyra
+n6gy
+fem
+1t
+sex
+hat
+sju
+h6t
++tta
+nyolc
+nio
+kilenc
+tio
+t9z
+fler
+t1bb
+en g+ng
+egyszer
+g+ng
+alkalom
+en siffra
+sz7mjegy
+en m0ngd
+mennyis6g
+ett stycke
+darab
+miljon
+milli3
+en summa
+1sszeg
+elva
+tizenegy
+tolv
+tizenkett4
+tretton
+tizenh7rom
+fjorton
+tizenn6gy
+femton
+tizen1t
+sexton
+tizenhat
+sjutton
+tizenh6t
+Sjutton ocks+!
+a fene egye meg!
+arton
+tizennyolc
+nitton
+tizenkilenc
+tjugo
+h5sz
+trettio
+harminc
+fyrtio
+negyven
+femtio
+1tven
+sextio
+hatvan
+sjuttio
+hetven
++ttio
+nyolcvan
+nittio
+kilencven
+hundra
+sz7z
+tusen
+ezer
+en h0lft
+f6l
+krona
+korona
+kosta
+ker2l vamibe
+en meter
+m6ter
+ett genomsnitt
+7tlag
+f1rst
+els4
+andra
+m7sodik
+tredje
+harmadik
+fj0rde
+negyedik
+fente
+1t1dik
+sj0tte
+hatodik
+sjunde
+hetedik
++ttonde
+nyolcadik
+nionde
+kilencedik
+plus
+plusz
+en majoritet
+t1bbs6g
+tusentals b1cker
+t1bb sz7z k1nyv
+dubbelt	s+ mycket
+k6tszer olyan sok
+nittonhundratalet
+a huszadik sz7zad
+respektera
+tisztel
+m+
+6rzi mag7t
+hur m+r du?
+hogy vagy?
+inneh+lla
+hartalmaz
+bli
+lesz, valamiv6 v7lik
+r0kna
+sz7mol
+m1ta
+tal7lkozik
+klippa
+(oll3val) v7g
+st0lla
+rak, tesz
+sakna
+hi7nyol
+tappa
+(el)vesz9t
+hyra
+b6rel
+likna
+hasonl9t
+missa
+lek6sik, elmulaszt
+fylla
+megt1lt
+anse
+gondol
+vad anser du om henne?
+mit gondolsz r3la?
+l0gga
+fektet, (rak, tesz)
+forts0tta
+folytat
+torka
+sz7rad, sz7r9t
+tillverka
+k6sz9t
+bygge
+6p9t
+v0nta
+v7r
+jag v0ntar p+ dig
+v7rok r7d
+blanda
+(1ssze)kever
+boka
+lefoglal
+importera
+import7l
+tillh1ra
+tartozik (vhova)
+l0mna
+(el)indul, otthagy
+h0nga
+l3g, felakaszt
+ber0tta
+(el)mond, elbesz6l
+undervisa
+tan9t
+fungera
+m8k1dik
+hata
+gy8l1l
+dela
+megoszt
+f1rklara
+magyar7z, megvil7g9t
+anta
+feltesz, felt6telez
+skicka
+k2ld
+vinna
+nyer
+st0nga
+bez7r
+sk0ra
+v7g
+f1rlora
+vesz9t
+bes1ka
+megl7togat
+be
+k1ny1r1g, im7dkozik 
+ang+
+vonatkozik
+h+lla med
+egyet6rt
+kommer fram
+oda6r
+skriver under
+al79r
+l0gger till
+hozz7ad 
+0ter upp
+megeszik
+dyker upp
+megjelenik
+fattas
+hi7nyzik
+misslyckas
+cs4d1t mond
+minnas
+eml6kszik
+vi ses!
+viszl7t!
+lyckas
+siker2l
+tr0ffa
+tal7lkozni
+hoppas
+rem6l
+skyndar sig
+siet
+k0nner sig
+5gy 6rzi mag7t
+l0r sig
+tanul, tan9t
+1verraskar sig
+meglep
+f1rbereder sig
+el4k6sz9t/2l, felk6sz9t/2l
+vi gifter oss i dag
+ma h7zasodunk 1ssze
+bry sig
+foglalkozik, t1r4dik
+Jag bryr mig om dig
+t1r4dik veled
+tar med sig
+mag7val hoz
+tar p+ sig
+f1lvesz
+tar av sig
+levesz (pl. ruh7t)
+en penna
+toll, ceruza
+en lektion, en l0xa
+lecke, h7zi feladat
+en utbildning
+oktat7s, nevel6s
+en l0rare
+tan7r
+en skola
+iskola
+en elev
+tanul3, hallgat3, di7k
+en rast
+sz2net (pl. iskol7ban)
+en anteckning
+jegyzet
+en id6
+gondolat, 1tlet
+ett bibliotek
+k1nyvt7r
+en kurse
+kurzus, tanfolyam
+ett exempel
+p6lda
+en studie
+tanulm7ny
+sv+r
+neh6z, bonyolult
+en uppsats
+essz6
+ett prov
+teszt, vizsga
+ett ord
+sz3
+en kunskap
+tud7s, ismeret
+ett universitet
+egyetem
+en 1vning
+gyakorl7s, gyakorlat
+ett kapitel
+fejezet
+en klass
+oszt7ly
+trots
+ellen6re, dac7ra
+en f1rklaring
+magyar7zat
+en f1rel0sning
+el4ad7s (pl. egyetemen)
+en sv+righet
+neh6zs6g
+en professor
+professzor
+en presentation
+prezent7ci3
+en sida
+oldal
+ett dokument
+dokumentum
+en historia
+t1rt6net
+en rapport
+jelent6s
+en undervisning
+oktat7s, nevel6s
+ett m+l
+c6l, g3l
+betyda
+jelent
+i g+r
+tegnap
+nyligen
+nemr6g, az ut3bbi id4ben
+i f1rrg+r
+tegnapel4tt
+tillbaka
+vissza
+i morse
+ma reggel (m5lt id4vel)
+bruka
+7ltal7ban [i]
+best0mma
+elhat7rozza mag7t
+anv0nda
+haszn7l
+r0knar med dig
+sz7m9tok r7d
+tr0na
+edz, gyakorol
+f+nga
+megfog, megragad
+k1penhamn
+koppenh7ga
+helsingfors
+helsinki
+nordeuropa
+6szak eur3pa
+sydeuropa
+d6l eur3pa
+1stersj1n
+balti tenger
+spanien
+spanyolorsz7g
+franska
+francia
+grekland
+g1r1gorsz7g
+italien
+olaszorsz7g
+frankrike
+franciaorsz7g
+samiska
+sz7mi
+storbritannien
+nagy britannia
+rom
+r3ma
+nederl0nderna
+hollandia
+1sterrike
+Austria
+ryssland
+oroszorsz7g
+polen
+lengyelorsz7g
+rysk
+orosz
+brasilien
+braz9lia
+hela dagen
+eg6sz nap
+vad st+r det?
+mit mond?
+sjuttiotalet
+70-es 6vek
+nittiotalet
+90-es 6vek
+kaka
+s2ti
+kanelbulla
+fah6jas s2ti
+en kanel
+fah6j
+gott nytt +r
+boldog 5j 6vet!
+bulla
+6des s2tem6ny
+baka
+s2t
+smaka
+9zlel, 9zlik
+en kr0fta
+r7k
+en potatis
+burgonya, krumpli
+en sill
+hering
+en bagare
+p6k
+ett bageri
+keny6rbolt, p6ks6g
+kn0ckebr1d
+ropog3s keny6r
+ett b0r
+bogy3(s gy1m2lcs)
+ett sm1r
+vaj
+ett senap
+must7r
+en gr0dde
+tejsz9n
+ett hallon
+m7lna
+en s+s
+sz3sz, m7rt7s
+en k1ttbulle
+h5sgomb3c
+ett kylsk+p
+h8t4szekr6ny
+hungrig
+6hes
+t1rstig
+szomjas
+en korv
+kolb7sz
+en t+rta
+torta
+surstr1mming
+erjesztett hering
+en osthyvel
+sajtszeletel4
+en saft
+l6
+en l1k
+hagyma
+en morot
+s7rgar6pa
+en lax
+lazac
+r1dvin
+v1r1sbor
+en vitl1k
+fokhagyma
+en lycka
+boldogs7g
+glad
+boldog
+sorglig
+szomor5
+rolig
+sz3rakoztat3, vicces
+ett skratt
+nevet6s
+tr+kig
+unalmas
+arg
+d2h1s, m6rges
+en k0nsla
+6rz6s, 6rzelem
+s1rja
+gy7szol
+en sorg
+b7nat, szomor5s7g, gy7sz
+en ilska
+harag, d2h
+en k0nslig
+6rz6keny, egy2tt6rz4
+ett leende
+mosoly
+en k0rlek
+ezerelem
+en sur
+savany5
+en frid
+nyugalom, b6kess6g
+le
+mosolyog
+f1rl+ta
+megbocs7t
+v+ga
+mer(6szel)
+nerv1s
+ideges
+gilla
+kedvel, szeret
+komma ih+g
+eml6kszik
+hemsk
+sz1rny8, borzaszt3
+sn0ll
+kedves
+myser
+1lelkezik
+oroar sig
+agg3dik
+fridfull
+b6k6s
+en t+r
+k1nny
+k0r
+szerelmes
+mysig
+bar7ts7gos, k6nyelmes
+n1jd
+el6gedett
+galen
+4r2lt, bolond
+sambo
+hitves, kedves
+kul
+sz3rakoztat3
+ett system
+rendszer
+en lista
+lista
+en service
+szolg7ltat7s
+ett namn
+n6v
+ett liv
+6let
+en +sikt
+v6lem6ny
+en del
+r6sz
+en grupp
+csoport
+en sort
+fajta, f6le
+design
+diz7jn
+en utsikt
+kil7t7s, l7tv7ny
+en order
+parancs
+en typ
+t9pus
+ett s0tt
+m3d
+en profil
+profile
+ett samtal
+besz6lget6s
+en f1r0ndring
+v7ltoz7s
+ett fall
+2gy, eset
+en niv+
+szint
+kontroll
+control
+en medlem
+tag
+en bild
+k6p, f6nyk6p
+en beskrivning
+le9r7s
+ett inneh+ll
+tartalom
+en kategori
+kateg3ria
+ett v0rde
+6rt6k
+ett konto
+sz7mla
+version
+version
+ett problem
+probl6ma
+ett resultat
+eredm6ny, k1vetkezm6ny
+sida vid sida
+egym7s mellett
+ett f1rslag
+javaslat
+en utrustning
+felszerel6s
+en aktivitet
+elfoglalts7g
+ett val
+v7laszt7s
+en b1rjan
+kezdet
+en l1sning
+megold7s
+ett ansvar
+felel4ss6g
+ett 0rende
+2gy, dolog
+en 1verenskommelse
+szerz4d6s
+ett alternativ
+v7laszt7s, alternat9va
+ett beslut
+d1nt6s
+en effekt
+hat7s
+ett hopp
+rem6ny
+en dr1m
+7lom
+en 1nskan
+k9v7ns7g, sz7nd6k
+en tanke
+gondolat, 1tlet
+ett slut
+v6g
+en grad
+fok
+ett bevis
+bizony9t6k
+en union
+uni3
+en roll
+szerep
+en r1st
+hang
+en m1jlighet
+lehet4s6g
+ett m1rker
+s1t6ts6g
+en framg+ng
+eredm6ny, kimenetel
+ett ljus
+f6ny, vil7gos
+ett 0mne
+tartalom, t6ma, t7rgy
+en s1mn
+alv7s
+l+ngsam
+lass5
+kort
+r1vid
+stark
+er4s
+l0tt
+k1nny8
+fri
+szabad
+gratis
+ingyenes
+ledig
+szabad, nem elfoglalt
+s1t
+cuki, aranyos
+underbar
+csod7latos
+fattig
+szeg6ny
+i morgon bitti
+holnap reggel
+hindra
+meghi5s9t, megakad7lyoz
+p+verka
+befoly7sol
+i 1vermorgon
+holnaput7n
+1ka
+n1vekszik, n1vel
+ung
+fiatal
+yngre
+fiatalabb
+yngsta
+legfiatalabb
+billig
+olcs3
+billigare
+olcs3bb
+viktigare
+fontosabb
+viktigaste
+legfontosabb
+dyrare
+dr7g7bb
+kallare
+hidegebb, h8v1sebb
+kallast
+leghidegebb
+varmare
+melegebb
+varmaste
+legmelegebb
+tr1ttare
+f7radtabb
+l0ngre
+longer
+l0ngsta
+longest
+st1rre
+nagyobb
+st1rst
+legnagyobb
+nyare
+5jabb
+0ldre
+1regebb
+0ldsta
+leg1regebb
+b0ttre
+jobb
+b0sta
+legjobb
+vackrare
+szebb, gy1ny1r8bb
+vackraste
+legszebb, leggy1ny1r8bb
+s0mre
+rosszabb
+s0msta
+legrossabb
+rikare
+gazdagabb
+finare
+szebb
+sv+rare
+nehezebb, bonyolultabb
+intressantare
+6rdekesebb
+vanligare
+gyakoribb
+l+ngsammare
+lassabb
+mindre
+kisebb, kevesebb
+minst
+legkisebb
+oftare
+gyakrabban
+trevlig
+kellemes, sz6p
+s0ker
+biztos
+0r du s0ker
+biztos vagy benne?
+enkel
+egyszer8
+sann
+val3s, igaz
+snabb
+f2rge, gyors
+r0ttvis
+igazs7gos
+djup
+alapos
+vass
+6les
+ensam
+egyed2l, mag7nyos
+f0rdig
+k6sz, befejezett
+svag
+gy1nge, h9g
+sedan
+3ta
+f1rut
+kor7bban
+en r0v
+r3ka
+ett f+r
+birka, juh
+en uggla
+bagoly
+en igelkott
+s2n(diszn3)
+en kanin
+ny5l
+ett lamm
+b7r7ny
+en ko
+teh6n
+en apa
+majom
+en fluga
+l6gy
+en insekt
+rovar
+en mygga
+sz5nyog
+en vinge
+sz7rny
+en gris
+sert6s, diszn3
+ett lejon
+oroszl7n
+en svans
+farok
+ett bi
+m6h
+en orm
+k9gy3
+bita
+harap
+en 1dla
+gy9k
+jaga
+vad7szik, 2ld1s
+en tiger
+tigris
+tiga
+cs1ndben marad
+en groda
+b6ka
+en fj0ril
+lepke, pillang3
+en ekorre
+m3kus
+kan
+tud, k6pes valamire
+m+ste
+kell, musz7j
+borde
+kellene [sgi]
+i alla fall
+akkor is, m6gis
+m+la
+fest, sz9nez
+skada
+megs6rt, t1nkretesz, megrong7l
+l+na
+k1lcs1nk6r
+till0mpa
+alkalmaz
+till+ta
+felhatalmaz
+v0cka
+fel6breszt, felkelt
+spara
+sp3rol
+f1rb0ttra
+jav9t, t1k6letes9t
+utveckla
+fejleszt
+upprepa, repetera
+megism6tel
+uppskatta
+m6lt7nyol
+tvinga
+k6nyszer9t
+b0ra
+visz, hord
+passa
+passzol
+st+
+7ll
+acceptera
+elfogad
+definiera
+meghat7roz
+sl+
+legy4z, megver
+undvika
+elker2l
+diskutera
+megvitat
+f1rlora
+vesz9t
+avsluta
+befejez
+byta
+v7lt, 7tsz7ll (k1zleked6si eszk1zre)
+varna (f1r)
+figyelmeztet
+flytta
+k1lt1zik, mozgat
+lida
+szenved
+f1ruts0tta
+felt6telez
+bada
+f2rdik, f2rdet
+analysera
+analiz7l, elemez
+ett hav
+tenger
+ett tr0d
+fa
+en vulkan
+vulk7n
+m+nen
+hold
+solen
+nap
+en blomma
+vir7g
+en himmel
+6g(bolt), menny(orsz7g)
+en stj0rna
+csillag
+ett gr0s
+f8
+en natur
+term6szet
+en sten
+k4, kavics
+en is
+j6g
+en eld
+t8z
+en r1k
+f2st
+en vind
+sz6l
+en sand
+homok
+en v0rld
+vil7g
+en ros
+r3zsa
+ett regn
+es4
+en luft
+leveg4
+en sk0rg+rd
+szigetvil7g
+ett berg, ett fj0ll
+hegy
+ett tr0
+fa (anyag)
+en v+g
+hull7m
+en flod, en +
+polyam, foly3
+ett v0der
+id4j7r7s
+en 0ng
+r6t, kasz7l3
+en planet
+bolyg3
+en gran
+feny4
+ett l1v
+falev6l
+en barr
+t8, t8lev6l
+en jord
+f1ld, talaj
+bl+sa
+f5j
+ett klimat
+kl9ma, 6ghajlat
+ett moln
+felh4, felleg
+ett universum
+univerzum
+en sn1
+h3
+sn1a
+havazik
+en metall
+f6m, 6rc
+en v0xt
+n1v6ny
+en gas
+g7z
+ett material
+anyag
+ett damm
+por
+en regnb+ge
+sziv7rv7ny
+ett vattenfall
+v9zes6s
+en blixt
+vill7m, kivil7g9t7s
+en frost
+fagy, d6r, z5zmara
+en +ska
+mennyd1rg6s, 6gzeng6s
+ett norrsken
+sarki f6ny
+en rymd
+vil7g8r, 8r
+en milj1
+k1rnyezet, k1rny6k
+h+rd
+kem6ny, szigor5
+mjuk
+l7gy, puha
+jobbig
+f7raszt3, meger4ltet4
+d1d
+halott
+farlig
+vesz6lyes
+intressera
+6rdekel
+dum
+buta, h2lye, ostoba
+h1g
+magas
+rak
+egyenes, 4szinte
+blyg
+f6l6nk
+m1rk
+s1t6t
+torr
+sz7raz
+gift
+married
+s1nder
+t1r1tt, darabokban van
+tung
+neh6z
+tyst
+cs1ndes, hangtalan
+bl1t
+nedves
+sj0lvklart
+term6szetesen, persze
+enda,ende
+egyetlen
+annorlunda
+k2l1nb1z4, elt6r4, m7s
+tjock
+vastag, k1v6r
+smal
+sz8k, v6kony
+ju .., desto ..
+min6l .., ann7l ..
+tidig
+korai
+upptagen
+foglalt, elfoglalt
+i st0llet
+helyett
+g0rna
+szeretn6k [hat.sz3]
+dessutom
+r7ad7sul, azt7n
+alls
+egy7ltal7n
+nog
+val3sz9n8leg
+fort
+gyorsan
+allts+
+9gy, akkor
+d0remot
+m7sr6szt
+hittills
+eddig
+pl1tslig
+hirtelen
+genast
+azonnal, r1gt1n
+n+gonsin
+b7rmikor
+samtidigt
+egyidej8leg, egyszerre
+knappast
+alighogy, aligha
+igenom
+v6gig, 7t, kereszt2l
+st0lla fr+ga
+k6rd6st feltesz
+st0ndigt
+7lland3an
+en spelare
+j7t6kos
+spela
+j7tszik
+ett lag
+csapat
+en ball
+labda
+ett steg
+l6p6s (j7t6kban)
+en sport, en idrott
+sport
+en promenad
+s6ta
+ett spel
+j7t6k
+en po0ng
+pont
+en fotboll
+foci
+en basket
+kos7rlabda
+fotbollsplan
+focip7lya
+sparka
+2t
+en tr0nare
+tr6ner, edz4
+en volleyboll
+r1plabda
+en tennis
+tennisz
+en match
+meccs, m6rk4z6s
+en turnering
+tournament
+ett gym
+gym
+en ishockey
+j6ghoki, j6gkorong
+en klubba
+2t4 (pl. j6ghoki)
+kasta
+(el)dob, vet
+en skida
+s9
+en f1rdel
+el4ny
+en nackdel
+h7tr7ny
+en teori
+elm6let
+en situation
+helyzet
+en effektivitet
+hat6konys7g
+en uppm0rksamhet
+figyelem
+en respekt
+tisztelet
+ett intresse
+6rdekl4d6s
+en framtid
+j1v4
+en sanning
+igazs7g
+ett projekt
+projekt
+en till+telse, ett tillst+nd
+enged6ly
+p+ g+ng
+5tk1zben
+ett ursprung
+kezdet, eredet, sz7rmaz7s
+en hemlighet
+titok
+en skada
+s6r2l6s
+allvarlig
+s5lyos, komoly
+en upplevelse
+6lm6ny
+en brist
+hi7ny
+en signal
+szign7l, jel
+en verklighet
+val3s7g
+klara av
+megb9rk3zik
+f1rl+t!
+eln6z6st!, bocs7nat!
+en utg+ng
+kij7rat
+en skugga
+7rny6k
+ett undantag
+kiv6tel
+en styrka
+er4ss6g, er4
+en erfarenhet
+tapasztalat (pl. munka)
+ett beteende
+viselked6s
+en symbol
+szimb3lum, jelk6p
+ett f1rs1k
+pr3b7lkoz7s
+en form
+forma, alak
+en relation
+viszyon, rel7ci3
+en cirkel
+k1r, k1rlap
+en r0dsla
+f6lelem
+en humor
+humor
+en 1verraskning
+meglepet6s
+en st1ld
+lop7s
+en konsekvens
+k1vetkezm6ny
+en tradition
+trad9ci3, hagyom7ny
+en konversation
+t7rsalg7s, besz6lget6s
+en n1jd
+vid7m, el6gedett
+en trov0rdighet
+hihet4s6g, hiteless6g
+en trend
+trend, ir7ny
+ett misstag
+hiba
+en personlighet
+egy6nis6g
+en attityd
+attit8d, hozz77ll7s
+ett mord
+gyilkoss7g
+en fras
+sz3kapcsolat, mond7s, fr7zis
+en tj0nst
+szolg7ltat7s, sz9vess6g
+i tj0nst
+szolg7latban (van)
+en fara
+vesz6ly
+ett minne
+szuven9r, eml6k
+en gl0dje
+1r1m, boldogs7g
+en ing+ng
+bej7rat
+en 0ra
+becs2let, megtisztelte6s
+kl0ttra
+m7szik
+ned
+le
+f1rbi
+mellett
+in
+be
+rinna
+folyik
+nedf1r
+lefele
+ut ur
+ki vmib4l
+uppf1r
+f1lfele
+d0rifr+n
+onnan
+hemifr+n
+otthonr3l
+omkring
+k1r2l
+s0tta sig
+le2l
+sitta ihop
+1sszerak
+mitt i staden
+a v7ros k1zep6n
+en fiol
+heged8
+en litteratur
+irodalom
+ett mode
+divat
+en fl1jt
+fuvola
+en konstn0r
+fest4
+en teater
+sz9nh7z
+en musik
+zene
+en konst
+m8v6szet
+en kamera
+kamera
+en film
+film
+en saga
+(t2nd6r)mese, monda
+ett ljud
+hang
+en gitarr
+git7r
+ett fotografi, ett kort
+f6nyk6p, fot3
+ett piano
+zongora
+en hj0lte
+h4s
+en s+ng
+6nek, dal
+stil
+st9lus
+ett instrument
+hangszer
+en dans
+t7nc
+en tavla
+k6p
+en t0vling
+verseny
+en publik
+k1z1ns6g
+en konsert
+koncert, hangverseny
+en invigning
+megnyit3
+en poesi
+k1lt6szet
+en novell
+elbesz6l6s
+en trumma
+dob
+trumma
+dobol
+ett band
+egy2ttes
+en samling
+gy8jtem6ny, kollekci3
+skapa
+alkot, l6trehoz
+dansa
+t7ncol
+en scen
+jelenet, sz9n
+rund
+lekerek9tett
+en hand
+k6z
+ett huvud
+fej
+ett hj0rta
+sz9v
+ett 1ga
+szem
+ett virus
+v9rus
+en olycka
+baleset
+en mun
+sz7j
+ett 1ra
+f2l
+en hj0rna
+agy
+en fot
+l7b(fej)
+sjuk
+beteg
+en v+rd
+7pol7s, t1r4d6s
+en h0lsa
+eg6szs6g
+en kropp
+test, t1rzs
+en medicin
+orvoss7g, gy3gyszer
+en t+
+l7bujj
+en tunga
+nyelv
+ett ansikte
+arc
+behandling
+kezel6s
+en cancer
+r7k
+en glas1gon
+szem2veg
+ett h+r
+haj
+ett n1dfall
+v6szhelyzet
+ett sjukhus
+k3rh7z
+en sjukdom
+k3r, betegs6g
+ett blod
+v6r
+en hud
+b4r
+en operation
+oper7ci3, m8t6t
+en ambulans
+ment4aut3
+en patient
+p7ciens, beteg
+en syn
+l7t7s
+en arm
+kar
+en blick
+tekintet
+en sm0rta
+f7jdalom, k9n
+bl1da
+v6rzik
+g1ra/ha ont
+f7j
+ont
+f7jdalom
+ett s+r
+seb
+ett ben
+l7b, csont
+en hals
+nyak, torok
+en tand
+fog
+ett finger
+ujj
+blunda
+becsukja a szem6t
+ett br1st
+mellkas, kebel, mell
+hosta
+k1h1g
+en tunga
+nyelv
+en l0pp
+ajak
+nysa
+t2sszent
+en n0sa
+orr
+en sjuksk1terska
+7pol3
+en rygg
+h7t
+en kondition
+condition
+en nagel
+k1r1m
+en mage
+has
+en kind
+arc, orca
+andas
+l6legzik
+svettas
+izzad
+gravid
+terhes
+en f1rkylning
+n7tha, megf7z7s
+bli f1rkyld
+megf7zni
+inbjuda
+megh9v, odah9v
+inbjuden
+megh9vott
+1ppnade
+kinyitott
+st0ngd
+bez7rt
+1verraskad
+meglepett
+stulen
+lopott

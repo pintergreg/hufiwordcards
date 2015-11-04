@@ -3,8 +3,8 @@ type
  txt=array[1..5] of string;
  cod=array[1..5] of integer;
 
-const VER='v3.1';
-      WORDS=630; BATCH=42;
+const VER='v3.2';
+      WORDS=1400; BATCH=50;
       TITLE='HuSv Kik6rdez4';
 
 var i, n, score, position, lastposition, selected, corq, selectedBatch, selectedCard, startCard, endCard, batches: integer;
@@ -148,7 +148,7 @@ while contains(selq) do
  end;
 asked[position]:=selq;
 
-if (random(100)<60) then
+if (random(100)<50) then
   fibase:=true;
 else
   fibase:=false;
@@ -264,7 +264,7 @@ begin
     begin
       setColor(128,128,0);
       drawText('Vissza: # gomb',4,getHeight-getStringHeight('Vissza: # gomb')-2);
-      drawText(integertostring(selectedCard-startCard+1)+'/42',getWidth-4-getStringWidth(integertostring(selectedCard-startCard+1)+'/42'),getHeight-getStringHeight('/40')-2);
+      drawText(integertostring(selectedCard-startCard+1)+'/'+integertostring(BATCH),getWidth-4-getStringWidth(integertostring(selectedCard-startCard+1)+'/'+integertostring(BATCH)),getHeight-getStringHeight('/40')-2);
     end;
     
   repaint;
