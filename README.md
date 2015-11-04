@@ -91,6 +91,9 @@ Changes
 =======
 
 ### 3.1
+* 1400 words in databas (swedish)
+
+### 3.1
 * change: it happened that currently I am learning Swedish, so I recomipled it with a Swedish dictionary
 * new feature: the character å is supported now
 
